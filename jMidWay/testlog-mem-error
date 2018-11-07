@@ -1,0 +1,1904 @@
+20060208 002115.256  test.jav[15634] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002115.260  test.jav[15634] [D]: jMidWay.c(70)start env=0x8a6c244 name=(nil) url=(nil)
+20060208 002115.261  test.jav[15634] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002115.263  test.jav[15634] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002115.265  test.jav[15634] [D]: jMidWay.c(84)rel
+20060208 002115.267  test.jav[15634] [D]: jMidWay.c(89)end rc=0
+20060208 002115.294  test.jav[15634] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002115.297  test.jav[15634] [D]: jMidWay.c(70)start env=0x8a6c244 name=(nil) url=(nil)
+20060208 002115.299  test.jav[15634] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002115.301  test.jav[15634] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002115.302  test.jav[15634] [D]: jMidWay.c(84)rel
+20060208 002115.303  test.jav[15634] [D]: jMidWay.c(89)end rc=0
+20060208 002115.305  test.jav[15634] [D]: _mw_list_services_byglob(773): Completes
+20060208 002115.309  test.jav[15634] [D]: _mw_list_services_byglob(773): Completes
+20060208 002115.313  test.jav[15634] [D]: _mw_list_services_byglob(773): Completes
+20060208 002115.334  test.jav[15634] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002115.337  test.jav[15634] [D]: jMidWay.c(70)start env=0x8a6c244 name=(nil) url=(nil)
+20060208 002115.339  test.jav[15634] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002115.340  test.jav[15634] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002115.342  test.jav[15634] [D]: jMidWay.c(84)rel
+20060208 002115.343  test.jav[15634] [D]: jMidWay.c(89)end rc=0
+20060208 002115.344  test.jav[15634] [D]: jMidWay.c(253)Doing call svc=shell data=uptime(6) flags=0
+20060208 002115.346  test.jav[15634] [D]: _mw_putbuffer_to_call(585): copying data from 0x8a69550 to 0xb16bd52c-0xb16bd532
+20060208 002115.348  test.jav[15634] [D]: _mw_putbuffer_to_call(593): data offset = 5420
+20060208 002115.349  test.jav[15634] [D]: jMidWay.c(267)Good return acall 4802186
+20060208 002115.354  test.jav[15634] [D]: jMidWay.c(286)doing fetch with handle 49468a
+20060208 002115.374  test.jav[15634] [D]: jMidWay.c(307)setting rc handle 49468a
+20060208 002115.375  test.jav[15634] [D]: jMidWay.c(313)setting rc 2
+20060208 002115.377  test.jav[15634] [D]: jMidWay.c(319)setting app rc 0
+20060208 002115.378  test.jav[15634] [D]: jMidWay.c(331)setting data  00:21:15 up 16:13,  5 users,  load average: 0.23, 0.06, 0.03
+ len=62
+20060208 002115.386  test.jav[15634] [D]: jMidWay.c(286)doing fetch with handle 49468a
+20060208 002115.388  test.jav[15634] [D]: jMidWay.c(307)setting rc handle 49468a
+20060208 002115.390  test.jav[15634] [D]: jMidWay.c(313)setting rc 1
+20060208 002115.391  test.jav[15634] [D]: jMidWay.c(319)setting app rc 0
+20060208 002115.392  test.jav[15634] [D]: jMidWay.c(331)setting data 
+
+real     0.005835 user  0.010 system  0.000 status 0
+ len=55
+20060208 002115.399  test.jav[15634] [D]: jMidWay.c(253)Doing call svc=shell data=id(2) flags=0
+20060208 002115.400  test.jav[15634] [D]: _mw_putbuffer_to_call(585): copying data from 0x8a69550 to 0xb16bee04-0xb16bee06
+20060208 002115.401  test.jav[15634] [D]: _mw_putbuffer_to_call(593): data offset = 11780
+20060208 002115.411  test.jav[15634] [D]: jMidWay.c(267)Good return acall 4802188
+20060208 002115.413  test.jav[15634] [D]: jMidWay.c(286)doing fetch with handle 49468c
+20060208 002115.416  test.jav[15634] [D]: jMidWay.c(307)setting rc handle 49468c
+20060208 002115.417  test.jav[15634] [D]: jMidWay.c(313)setting rc 1
+20060208 002115.419  test.jav[15634] [D]: jMidWay.c(319)setting app rc 0
+20060208 002115.421  test.jav[15634] [D]: jMidWay.c(331)setting data uid=500(terje) gid=500(terje) groups=500(terje)
+
+
+real     0.006201 user  0.000 system  0.000 status 0
+ len=103
+20060208 002115.444  test.jav[15634] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002115.448  test.jav[15634] [D]: jMidWay.c(70)start env=0x8a6c244 name=(nil) url=(nil)
+20060208 002115.449  test.jav[15634] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002115.452  test.jav[15634] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002115.453  test.jav[15634] [D]: jMidWay.c(84)rel
+20060208 002115.456  test.jav[15634] [D]: jMidWay.c(89)end rc=0
+20060208 002115.458  test.jav[15634] [D]: jMidWay.c(374)Doing event name=hei data=data(4) username=(null) clientname=(null)
+20060208 002115.460  test.jav[15634] [D]: jMidWay.c(394)Good return acall 0
+20060208 002115.461  test.jav[15634] [D]: jMidWay.c(451)subscribe to event
+20060208 002115.468  test.jav[15634] [D]: jMidWay.c(418)assigned free subent subid 42
+20060208 002115.470  test.jav[15634] [D]: jMidWay.c(467)subscribe to event event1
+20060208 002115.471  test.jav[15634] [D]: jMidWay.c(470)new glob ref 0x86844c4 old glob ref 0xb1ad3734
+20060208 002115.474  test.jav[15634] [D]: jMidWay.c(374)Doing event name=event1 data=event data(10) username=(null) clientname=(null)
+20060208 002115.476  test.jav[15634] [D]: jMidWay.c(394)Good return acall 0
+20060208 002125.479  test.jav[15634] [D]: jMidWay.c(609)calling recvevents
+20060208 002125.479  test.jav[15634] [D]: jMidWay.c(495)got an event id=42 name=event1
+20060208 002125.479  test.jav[15634] [D]: jMidWay.c(511)event handler cls ptr=0x8647ae0
+20060208 002125.479  test.jav[15634] [D]: jMidWay.c(515)event handler method ptr=0x8a72e80
+20060208 002125.479  test.jav[15634] [D]: jMidWay.c(528)cls ptr=0x8647af8
+20060208 002125.479  test.jav[15634] [D]: jMidWay.c(539)field id ptr=0x42
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(545)field id ptr=0x22
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(551)field id ptr=0x32
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(557)constructor ptr=0x8a704b0
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(565)event object ptr=0x8647afc
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(575)new glob ref 0x8a619dc old glob ref 0x8647b00
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(585)new glob ref 0x8a619e0 old glob ref 0x8647b04
+20060208 002125.480  test.jav[15634] [D]: jMidWay.c(595)calling event handler
+20060208 002125.501  test.jav[15634] [D]: jMidWay.c(598)done
+20060208 002125.501  test.jav[15634] [D]: jMidWay.c(611)done
+20060208 002310.590  test.jav[15951] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002310.594  test.jav[15951] [D]: jMidWay.c(70)start env=0x97b3a1c name=(nil) url=(nil)
+20060208 002310.595  test.jav[15951] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002310.595  test.jav[15951] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002310.596  test.jav[15951] [D]: jMidWay.c(84)rel
+20060208 002310.596  test.jav[15951] [D]: jMidWay.c(89)end rc=0
+20060208 002310.867  test.jav[15951] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002310.867  test.jav[15951] [D]: jMidWay.c(70)start env=0x97b3a1c name=(nil) url=(nil)
+20060208 002310.867  test.jav[15951] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002310.868  test.jav[15951] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002310.872  test.jav[15951] [D]: jMidWay.c(84)rel
+20060208 002310.873  test.jav[15951] [D]: jMidWay.c(89)end rc=0
+20060208 002310.873  test.jav[15951] [D]: _mw_list_services_byglob(773): Completes
+20060208 002310.874  test.jav[15951] [D]: _mw_list_services_byglob(773): Completes
+20060208 002310.874  test.jav[15951] [D]: _mw_list_services_byglob(773): Completes
+20060208 002310.899  test.jav[15951] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002310.899  test.jav[15951] [D]: jMidWay.c(70)start env=0x97b3a1c name=(nil) url=(nil)
+20060208 002310.899  test.jav[15951] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002310.899  test.jav[15951] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002310.900  test.jav[15951] [D]: jMidWay.c(84)rel
+20060208 002310.900  test.jav[15951] [D]: jMidWay.c(89)end rc=0
+20060208 002310.901  test.jav[15951] [D]: jMidWay.c(253)Doing call svc=shell data=uptime(6) flags=0
+20060208 002310.901  test.jav[15951] [E]: mwalloc: retrived chunk is of size 0*1024 != 1*1024 chunk at offset 5408
+20060208 002310.901  test.jav[15951] [E]: get cgetchunksizebyadr = 0
+20060208 002310.901  test.jav[15951] [D]: _mw_putbuffer_to_call(585): copying data from 0x984af10 to 0xb178b52c-0xb178b532
+20060208 002310.901  test.jav[15951] [D]: _mw_putbuffer_to_call(593): data offset = 5420
+20060208 002310.901  test.jav[15951] [D]: jMidWay.c(267)Good return acall 881585128
+20060208 002310.902  test.jav[15951] [D]: jMidWay.c(286)doing fetch with handle 348bebe8
+20060208 002310.925  test.jav[15951] [E]: Possible shm buffer corruption 0 < 24093 < 100 fails for adr 0xb17bdc98 offset 867360
+20060208 002310.925  test.jav[15951] [D]: jMidWay.c(307)setting rc handle 348bebe8
+20060208 002310.925  test.jav[15951] [D]: jMidWay.c(313)setting rc 1
+20060208 002310.925  test.jav[15951] [D]: jMidWay.c(319)setting app rc 0
+20060208 002310.926  test.jav[15951] [D]: jMidWay.c(331)setting data                                                         len=55
+20060208 002310.926  test.jav[15951] [D]: jMidWay.c(286)doing fetch with handle 348bebe8
+20060208 002417.645  test.jav[16135] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002417.648  test.jav[16135] [D]: jMidWay.c(70)start env=0x8be7124 name=(nil) url=(nil)
+20060208 002417.649  test.jav[16135] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002417.651  test.jav[16135] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002417.652  test.jav[16135] [D]: jMidWay.c(84)rel
+20060208 002417.653  test.jav[16135] [D]: jMidWay.c(89)end rc=0
+20060208 002417.909  test.jav[16135] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002417.910  test.jav[16135] [D]: jMidWay.c(70)start env=0x8be7124 name=(nil) url=(nil)
+20060208 002417.910  test.jav[16135] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002417.910  test.jav[16135] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002417.911  test.jav[16135] [D]: jMidWay.c(84)rel
+20060208 002417.911  test.jav[16135] [D]: jMidWay.c(89)end rc=0
+20060208 002417.912  test.jav[16135] [D]: _mw_list_services_byglob(773): Completes
+20060208 002417.912  test.jav[16135] [D]: _mw_list_services_byglob(773): Completes
+20060208 002417.912  test.jav[16135] [D]: _mw_list_services_byglob(773): Completes
+20060208 002417.945  test.jav[16135] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002417.945  test.jav[16135] [D]: jMidWay.c(70)start env=0x8be7124 name=(nil) url=(nil)
+20060208 002417.945  test.jav[16135] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002417.945  test.jav[16135] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002417.947  test.jav[16135] [D]: jMidWay.c(84)rel
+20060208 002417.947  test.jav[16135] [D]: jMidWay.c(89)end rc=0
+20060208 002417.947  test.jav[16135] [D]: jMidWay.c(253)Doing call svc=shell data=uptime(6) flags=0
+20060208 002417.947  test.jav[16135] [E]: mwalloc: retrived chunk is of size 0*1024 != 1*1024 chunk at offset 5408
+20060208 002417.947  test.jav[16135] [E]: get cgetchunksizebyadr = 0
+20060208 002417.947  test.jav[16135] [D]: _mw_putbuffer_to_call(585): copying data from 0x8c7e990 to 0xb16d152c-0xb16d1532
+20060208 002417.948  test.jav[16135] [D]: _mw_putbuffer_to_call(593): data offset = 5420
+20060208 002417.948  test.jav[16135] [D]: jMidWay.c(267)Good return acall 837988850
+20060208 002417.949  test.jav[16135] [D]: jMidWay.c(286)doing fetch with handle 31f2b1f2
+20060208 002417.971  test.jav[16135] [E]: Possible shm buffer corruption 0 < 24093 < 100 fails for adr 0xb1703c98 offset 867360
+20060208 002417.971  test.jav[16135] [D]: jMidWay.c(307)setting rc handle 31f2b1f2
+20060208 002417.971  test.jav[16135] [D]: jMidWay.c(313)setting rc 1
+20060208 002417.971  test.jav[16135] [D]: jMidWay.c(319)setting app rc 0
+20060208 002417.971  test.jav[16135] [D]: jMidWay.c(331)setting data                                                         len=55
+20060208 002417.972  test.jav[16135] [D]: jMidWay.c(286)doing fetch with handle 31f2b1f2
+
+
+
+
+
+20060208 002554.124  test.jav[16434] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002554.126  test.jav[16434] [D]: jMidWay.c(70)start env=0x879a87c name=(nil) url=(nil)
+20060208 002554.128  test.jav[16434] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002554.128  test.jav[16434] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002554.130  test.jav[16434] [D]: jMidWay.c(84)rel
+20060208 002554.131  test.jav[16434] [D]: jMidWay.c(89)end rc=0
+20060208 002554.418  test.jav[16434] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002554.418  test.jav[16434] [D]: jMidWay.c(70)start env=0x879a87c name=(nil) url=(nil)
+20060208 002554.418  test.jav[16434] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002554.418  test.jav[16434] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002554.420  test.jav[16434] [D]: jMidWay.c(84)rel
+20060208 002554.420  test.jav[16434] [D]: jMidWay.c(89)end rc=0
+20060208 002554.420  test.jav[16434] [D]: _mw_list_services_byglob(773): Completes
+20060208 002554.421  test.jav[16434] [D]: _mw_list_services_byglob(773): Completes
+20060208 002554.421  test.jav[16434] [D]: _mw_list_services_byglob(773): Completes
+20060208 002554.452  test.jav[16434] [D]: mwsetloglevel(498): loglevel is now Debug: 
+20060208 002554.453  test.jav[16434] [D]: jMidWay.c(70)start env=0x879a87c name=(nil) url=(nil)
+20060208 002554.453  test.jav[16434] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002554.453  test.jav[16434] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002554.454  test.jav[16434] [D]: jMidWay.c(84)rel
+20060208 002554.455  test.jav[16434] [D]: jMidWay.c(89)end rc=0
+20060208 002554.456  test.jav[16434] [D]: jMidWay.c(253)Doing call svc=shell data=uptime(6) flags=0
+20060208 002554.456  test.jav[16434] [E]: mwalloc: retrived chunk is of size 0*1024 != 1*1024 chunk at offset 5408
+20060208 002554.456  test.jav[16434] [E]: get cgetchunksizebyadr = 0
+20060208 002554.456  test.jav[16434] [D]: _mw_putbuffer_to_call(585): copying data from 0x879e450 to 0xb174852c-0xb1748532
+20060208 002554.456  test.jav[16434] [D]: _mw_putbuffer_to_call(593): data offset = 5420
+20060208 002554.456  test.jav[16434] [D]: jMidWay.c(267)Good return acall 210473576
+20060208 002554.458  test.jav[16434] [D]: jMidWay.c(286)doing fetch with handle c8b9268
+20060208 002554.466  test.jav[16434] [E]: Possible shm buffer corruption 0 < 28985 < 100 fails for adr 0xb177ac98 offset 1043488
+20060208 002554.466  test.jav[16434] [D]: jMidWay.c(307)setting rc handle c8b9268
+20060208 002554.467  test.jav[16434] [D]: jMidWay.c(313)setting rc 1
+20060208 002554.467  test.jav[16434] [D]: jMidWay.c(319)setting app rc 0
+20060208 002554.467  test.jav[16434] [D]: jMidWay.c(331)setting data                                                         len=55
+20060208 002554.467  test.jav[16434] [D]: jMidWay.c(286)doing fetch with handle c8b9268
+20060208 002656.966  test.jav[16614] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 002656.969  test.jav[16614] [D]: jMidWay.c(70)start env=0xa2b81a4 name=(nil) url=(nil)
+20060208 002656.970  test.jav[16614] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002656.971  test.jav[16614] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 002656.971  test.jav[16614] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 002656.971  test.jav[16614] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 002656.971  test.jav[16614] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 002656.971  test.jav[16614] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002656.972  test.jav[16614] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1b3c000
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(234): client table attached at 0xb1b38000
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(242): Server table attached at 0xb1b37000
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(250): service table attached at 0xb1b33000
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1b31000
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1b30000
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 1900549
+20060208 002656.972  test.jav[16614] [1]: _mw_attach_ipc(279): heap attached
+20060208 002656.973  test.jav[16614] [1]: addsegment(238): adding 0 on fd -1 start=0xb17ab000 end=0xb1ae5344
+20060208 002656.973  test.jav[16614] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 002656.973  test.jav[16614] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 002656.973  test.jav[16614] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 002656.973  test.jav[16614] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1b3c000
+20060208 002656.973  test.jav[16614] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 002656.973  test.jav[16614] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  1900549
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002656.973  test.jav[16614] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 002656.976  test.jav[16614] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 002656.977  test.jav[16614] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  1900549
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000004
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002656.977  test.jav[16614] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000004 flags=0x0 rcode=0
+20060208 002656.977  test.jav[16614] [D]: jMidWay.c(84)rel
+20060208 002656.977  test.jav[16614] [D]: jMidWay.c(89)end rc=0
+20060208 002656.978  test.jav[16614] [1]: mwdetach(497): mwdetach: detaching
+20060208 002656.983  test.jav[16614] [3]: _mwdetachipc(146): _mwdetachipc: system is not in shutdown
+20060208 002656.983  test.jav[16614] [1]: _mw_ipcsend_detach_indirect(901): CALL: _mw_ipcsend_detach_indirect()
+20060208 002656.983  test.jav[16614] [1]: _mw_ipcsend_detach_indirect(928): Sending a detach message client=TRUE server=FALSE
+20060208 002656.983  test.jav[16614] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1b3c000
+20060208 002656.984  test.jav[16614] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 002656.984  test.jav[16614] [1]: _mw_dumpmesg(498): Detach Request MESSAGE: 0x820
+          int         ipcqid             =  1900549
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000004
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002656.984  test.jav[16614] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 002656.988  test.jav[16614] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2096, flags=0) returned 172 and 176 bytes of data
+20060208 002656.988  test.jav[16614] [1]: _mw_dumpmesg(498): Detach Reply MESSAGE: 0x830
+          int         ipcqid             =  1900549
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000004
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002656.988  test.jav[16614] [1]: _mw_ipcsend_detach_indirect(952): Received a detach message reply from mwd client = TRUE server = FALSE rcode=0
+20060208 002657.283  test.jav[16614] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 002657.283  test.jav[16614] [D]: jMidWay.c(70)start env=0xa2b81a4 name=(nil) url=(nil)
+20060208 002657.283  test.jav[16614] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002657.283  test.jav[16614] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 002657.284  test.jav[16614] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 002657.284  test.jav[16614] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 002657.284  test.jav[16614] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 002657.284  test.jav[16614] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002657.284  test.jav[16614] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1b3b000
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(234): client table attached at 0xb1b37000
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(242): Server table attached at 0xb1b36000
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(250): service table attached at 0xb1b32000
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1b30000
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1b2f000
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 1933317
+20060208 002657.284  test.jav[16614] [1]: _mw_attach_ipc(279): heap attached
+20060208 002657.284  test.jav[16614] [1]: addsegment(238): adding 0 on fd -1 start=0xb16e0000 end=0xb1a1a344
+20060208 002657.285  test.jav[16614] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 002657.285  test.jav[16614] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 002657.285  test.jav[16614] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 002657.285  test.jav[16614] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1b3b000
+20060208 002657.285  test.jav[16614] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 002657.285  test.jav[16614] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  1933317
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002657.285  test.jav[16614] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 002657.290  test.jav[16614] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 002657.290  test.jav[16614] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  1933317
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000005
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002657.291  test.jav[16614] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000005 flags=0x0 rcode=0
+20060208 002657.291  test.jav[16614] [D]: jMidWay.c(84)rel
+20060208 002657.291  test.jav[16614] [D]: jMidWay.c(89)end rc=0
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(695): glob is "*"
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(699): clearing the lists
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 0 service .mwsrvmgr type = 1
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 1 service shell type = 1
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(728): checking the 0 matches we got for duplicates
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 2 service shell-eggis1 type = 1
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 002657.291  test.jav[16614] [3]: _mw_list_services_byglob(728): checking the 1 matches we got for duplicates
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 3 service ping type = 1
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(728): checking the 2 matches we got for duplicates
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 4 service ping-eggis1 type = 1
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(728): checking the 3 matches we got for duplicates
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(743): the matches 4
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(752): the total string length is 36
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(756): the total buffer length is 60
+20060208 002657.292  test.jav[16614] [D]: _mw_list_services_byglob(773): Completes
+20060208 002657.292  test.jav[16614] [3]: _mw_list_services_byglob(695): glob is "ping*"
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(699): clearing the lists
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 0 service .mwsrvmgr type = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 1 service shell type = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 2 service shell-eggis1 type = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 3 service ping type = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(728): checking the 0 matches we got for duplicates
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 4 service ping-eggis1 type = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(728): checking the 1 matches we got for duplicates
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(743): the matches 2
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(752): the total string length is 17
+20060208 002657.293  test.jav[16614] [3]: _mw_list_services_byglob(756): the total buffer length is 33
+20060208 002657.294  test.jav[16614] [D]: _mw_list_services_byglob(773): Completes
+20060208 002657.302  test.jav[16614] [3]: _mw_list_services_byglob(695): glob is "nomatch"
+20060208 002657.302  test.jav[16614] [3]: _mw_list_services_byglob(699): clearing the lists
+20060208 002657.302  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 0 service .mwsrvmgr type = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 1 service shell type = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 2 service shell-eggis1 type = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 3 service ping type = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(712): checking index 4 service ping-eggis1 type = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(743): the matches 0
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(752): the total string length is 0
+20060208 002657.303  test.jav[16614] [3]: _mw_list_services_byglob(756): the total buffer length is 8
+20060208 002657.303  test.jav[16614] [D]: _mw_list_services_byglob(773): Completes
+20060208 002657.303  test.jav[16614] [1]: mwdetach(497): mwdetach: detaching
+20060208 002657.303  test.jav[16614] [3]: _mwdetachipc(146): _mwdetachipc: system is not in shutdown
+20060208 002657.303  test.jav[16614] [1]: _mw_ipcsend_detach_indirect(901): CALL: _mw_ipcsend_detach_indirect()
+20060208 002657.303  test.jav[16614] [1]: _mw_ipcsend_detach_indirect(928): Sending a detach message client=TRUE server=FALSE
+20060208 002657.304  test.jav[16614] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1b3b000
+20060208 002657.304  test.jav[16614] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 002657.304  test.jav[16614] [1]: _mw_dumpmesg(498): Detach Request MESSAGE: 0x820
+          int         ipcqid             =  1933317
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000005
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002657.304  test.jav[16614] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 002657.312  test.jav[16614] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2096, flags=0) returned 172 and 176 bytes of data
+20060208 002657.312  test.jav[16614] [1]: _mw_dumpmesg(498): Detach Reply MESSAGE: 0x830
+          int         ipcqid             =  1933317
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000005
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002657.312  test.jav[16614] [1]: _mw_ipcsend_detach_indirect(952): Received a detach message reply from mwd client = TRUE server = FALSE rcode=0
+20060208 002657.334  test.jav[16614] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 002657.334  test.jav[16614] [D]: jMidWay.c(70)start env=0xa2b81a4 name=(nil) url=(nil)
+20060208 002657.334  test.jav[16614] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 002657.334  test.jav[16614] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 002657.334  test.jav[16614] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 002657.334  test.jav[16614] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 002657.334  test.jav[16614] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 002657.334  test.jav[16614] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 002657.335  test.jav[16614] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1b3a000
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(234): client table attached at 0xb1b36000
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(242): Server table attached at 0xb1b35000
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(250): service table attached at 0xb1b31000
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1b2f000
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1b2e000
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 1966085
+20060208 002657.335  test.jav[16614] [1]: _mw_attach_ipc(279): heap attached
+20060208 002657.335  test.jav[16614] [1]: addsegment(238): adding 0 on fd -1 start=0xb16e0000 end=0xb1a1a344
+20060208 002657.335  test.jav[16614] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 002657.335  test.jav[16614] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 002657.335  test.jav[16614] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 002657.336  test.jav[16614] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1b3a000
+20060208 002657.336  test.jav[16614] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 002657.336  test.jav[16614] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  1966085
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002657.336  test.jav[16614] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 002657.341  test.jav[16614] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 002657.341  test.jav[16614] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  1966085
+          pid_t       pid                =  16614
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000006
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 002657.341  test.jav[16614] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000006 flags=0x0 rcode=0
+20060208 002657.341  test.jav[16614] [D]: jMidWay.c(84)rel
+20060208 002657.341  test.jav[16614] [D]: jMidWay.c(89)end rc=0
+20060208 002657.342  test.jav[16614] [D]: jMidWay.c(253)Doing call svc=shell data=uptime(6) flags=0
+20060208 002657.342  test.jav[16614] [1]: mwacall(593): mwacall called for service shell
+20060208 002657.342  test.jav[16614] [3]: _mw_nexthandle(336): locking mutex callhandle ...
+20060208 002657.342  test.jav[16614] [1]: _mw_nexthandle(336): locked mutex callhandle
+20060208 002657.342  test.jav[16614] [1]: _mw_nexthandle(348): unlocking mutex callhandle
+20060208 002657.342  test.jav[16614] [1]: _mwacallipc(1206): BEGIN: (svcname=shell, data=0xa2b9d78, datalen=6, flags=0x40, mwid=0xffffffff, instance=(NULL), domain=(NULL), callerid=-1, hops=0
+20060208 002657.342  test.jav[16614] [1]: _mwacallipc(1233): doing mwid's
+20060208 002657.342  test.jav[16614] [3]: _mw_nexthandle(336): locking mutex callhandle ...
+20060208 002657.343  test.jav[16614] [1]: _mw_nexthandle(336): locked mutex callhandle
+20060208 002657.343  test.jav[16614] [1]: _mw_nexthandle(348): unlocking mutex callhandle
+20060208 002657.343  test.jav[16614] [1]: _mwacallipc(1282): doing data
+20060208 002657.343  test.jav[16614] [1]: >Enter>[1] _mwalloc
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb16e0000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 7
+  number of bins    : 6
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(225):     Bin 1: chunk = 214192 freecount = 99
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(225):     Bin 2: chunk = 420508 freecount = 100
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 002657.343  test.jav[16614] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 002657.344  test.jav[16614] [1]: find_bin(933): alloc size 6, size in chunks = 1, bin = 0
+20060208 002657.344  test.jav[16614] [3]: _mwalloc(984): first chunk 0 freecount 194
+20060208 002657.344  test.jav[16614] [3]: _mwalloc(988): first chunk 0 freecount 194
+20060208 002657.344  test.jav[16614] [3]: _mwalloc(984): first chunk 214192 freecount 99
+20060208 002657.344  test.jav[16614] [3]: popchunk(742): root offset = 214192
+20060208 002657.344  test.jav[16614] [3]: _mwfooter(202): footer for 0xb17df4b0 is at 0xb17df4b0 + 12 + 0 * 1024 = 0xb17df4bc
+20060208 002657.344  test.jav[16614] [3]: _mwfooter(203): head adr 0xb17df4b0 foot adr 0xb17df4bc
+20060208 002657.344  test.jav[16614] [3]: popchunk(747): head at 0xb17df4b0 footer at 0xb17df4bc
+20060208 002657.344  test.jav[16614] [3]: popchunk(748): footer: above = 0 prev 0 next 0
+20060208 002657.344  test.jav[16614] [3]: _mwfooter(202): footer for 0xb17ab000 is at 0xb17ab000 + 12 + 0 * 1024 = 0xb17ab00c
+20060208 002657.344  test.jav[16614] [3]: _mwfooter(203): head adr 0xb17ab000 foot adr 0xb17ab00c
+20060208 002657.344  test.jav[16614] [3]: _mwfooter(202): footer for 0xb17ab000 is at 0xb17ab000 + 12 + 0 * 1024 = 0xb17ab00c
+20060208 002657.344  test.jav[16614] [3]: _mwfooter(203): head adr 0xb17ab000 foot adr 0xb17ab00c
+20060208 002657.344  test.jav[16614] [3]: popchunk(768): root offset now = 0
+20060208 002657.344  test.jav[16614] [3]: popchunk(773): returning head at 0xb17df4b0 
+20060208 002657.344  test.jav[16614] [3]: _mwalloc(988): first chunk 0 freecount 98
+20060208 002657.344  test.jav[16614] [3]: _mwalloc(994): chunk has size in chunks 0 ownerid = 0
+20060208 002657.344  test.jav[16614] [E]: mwalloc: retrived chunk is of size 0*1024 != 2*1024 chunk at offset 214192
+20060208 002657.345  test.jav[16614] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 0
+20060208 002657.345  test.jav[16614] [E]: get cgetchunksizebyadr = 0
+20060208 002657.345  test.jav[16614] [1]: _mwalloc(1013): _mwalloc(6) return a chunk with size 0 at 0xb17df4bc 
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb16e0000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 8
+  number of bins    : 6
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(225):     Bin 2: chunk = 420508 freecount = 100
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 002657.354  test.jav[16614] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 002657.354  test.jav[16614] [1]: >Leave[0] _mwalloc
+20060208 002657.355  test.jav[16614] [D]: _mw_putbuffer_to_call(585): copying data from 0xa2b9d78 to 0xb17df4bc-0xb17df4c2
+20060208 002657.355  test.jav[16614] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 0
+20060208 002657.355  test.jav[16614] [1]: _mwshmcheck(699): buffer at 0xb17df4bc has size 0
+20060208 002657.355  test.jav[16614] [1]: _mw_getsegment_byaddr(418): lookup of segment on addr 0xb17df4bc => 0xa355c48
+20060208 002657.355  test.jav[16614] [D]: _mw_putbuffer_to_call(593): data offset = 214204
+20060208 002657.355  test.jav[16614] [1]: _mwacallipc(1301): dataoffset 214204 length 6
+20060208 002657.355  test.jav[16614] [1]: _mwacallipc(1304): getting available servers
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(626): getting the list of services that provide shell conv=0 ipconly=0
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(640): clearing the slist
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(645): we start at the random entry in the svctbl 24
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(657): checking index 0 service .mwsrvmgr type = 1
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(657): checking index 1 service shell type = 1
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(664): adding svcentry with index 1 n = 0
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(657): checking index 2 service shell-eggis1 type = 1
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(657): checking index 3 service ping type = 1
+20060208 002657.355  test.jav[16614] [3]: _mw_get_services_byname(657): checking index 4 service ping-eggis1 type = 1
+20060208 002657.355  test.jav[16614] [1]: _mwacallipc(1313): selecting 0 of 1 = 1
+20060208 002657.355  test.jav[16614] [1]: _mwacallipc(1327): Sending a ipcmessage to serviceid 0x8000001 service shell on server 0x1000001 my clientid 0x2000006 buffer at offset 214204 len 6 
+20060208 002657.356  test.jav[16614] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0x1000001 on mqueue 1736706
+20060208 002657.356  test.jav[16614] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0xa355c48
+20060208 002657.356  test.jav[16614] [1]: _mw_dumpmesg(550): Service Call MESSAGE: 0x100
+          int         handle             = 842271278
+          CLIENTID    cltid              = 0x2000006
+          SERVERID    srvid              = 0xffffffff
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139354817
+          int         uissued            = 342730
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 214204 "uptime"
+          int64_t     datalen            = 6
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 0
+20060208 002657.356  test.jav[16614] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1736706, msglen=280, flags=0) returned 0
+20060208 002657.356  test.jav[16614] [1]: _mwacallipc(1333): _mw_ipc_putmessage returned 0 handle is 842271278
+20060208 002657.356  test.jav[16614] [1]: _mwacallipc(1351): done
+20060208 002657.356  test.jav[16614] [1]: mwacall(615): returning 842271278
+20060208 002657.356  test.jav[16614] [D]: jMidWay.c(267)Good return acall 842271278
+20060208 002657.357  test.jav[16614] [D]: jMidWay.c(286)doing fetch with handle 32340a2e
+20060208 002657.357  test.jav[16614] [1]: mwfetch(518): mwfetch called handle = 842271278
+20060208 002657.370  test.jav[16614] [1]: mwfetch(571): MWMULTIPLE flags set
+20060208 002657.370  test.jav[16614] [1]: _mwfetchipc(1387):  called for handle 842271278
+20060208 002657.370  test.jav[16614] [1]: popCallReplyByHandle(240): poping call with handle 842271278
+20060208 002657.370  test.jav[16614] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 002657.370  test.jav[16614] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 002657.370  test.jav[16614] [1]: popCallReplyByHandle(283): pop returned NULL
+20060208 002657.382  test.jav[16614] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=272, flags=64) returned 280 and 284 bytes of data
+20060208 002657.382  test.jav[16614] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0xa355c48
+20060208 002657.382  test.jav[16614] [1]: _mw_dumpmesg(550): Call Reply MESSAGE: 0x110
+          int         handle             = 842271278
+          CLIENTID    cltid              = 0x2000006
+          SERVERID    srvid              = 0x1000001
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139354817
+          int         uissued            = 342730
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 420520 "???????????????????????????????????????????????????????"
+          int64_t     datalen            = 55
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 1
+20060208 002657.383  test.jav[16614] [1]: _mwfetchipc(1436): Got a message of type 0x110 handle 842271278 
+20060208 002657.383  test.jav[16614] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0xa355c48
+20060208 002657.383  test.jav[16614] [3]: _mwfetchipc(1456): copying data to local byffer, freeing shm buffer
+20060208 002657.383  test.jav[16614] [1]: _mwfetchipc(1463): owner id of data is ERROR:0
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb16e0000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(225):     Bin 2: chunk = 424640 freecount = 99
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 002657.383  test.jav[16614] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 002657.383  test.jav[16614] [3]: _mwfree(1260): shm buffer
+20060208 002657.383  test.jav[16614] [1]: _mwfree0(1120): checking to see if the address is in the chuck area of the heap
+20060208 002657.383  test.jav[16614] [1]: _mwfree0(1122): top = 108 < adr = 1252008 < 3384024, bottom
+20060208 002657.383  test.jav[16614] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 0
+20060208 002657.383  test.jav[16614] [1]: _mwfree0(1143): d = -inf, bin = -2147483648
+20060208 002657.383  test.jav[16614] [1]: _mw_gettopofbin(1305): top of bin -2147483648 is 108 
+20060208 002657.384  test.jav[16614] [1]: _mwfree0(1159): bin -2147483648 start 108, 36 bytes per chunk, 1251888 bytes offset into chunk area
+20060208 002657.384  test.jav[16614] [1]: _mwfree0(1166): bin -2147483648 chunk index 34774 of 100
+20060208 002657.384  test.jav[16614] [E]: Possible shm buffer corruption 0 < 34774 < 100 fails for adr 0xb1811aa8 offset 1251888
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb16e0000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(225):     Bin 2: chunk = 424640 freecount = 99
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 002657.384  test.jav[16614] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 002657.384  test.jav[16614] [1]: _mwfetchipc(1469): owner id of data is ERROR:0
+20060208 002657.384  test.jav[16614] [1]: _mwfetchipc(1482): returned with returncode=1 and with 55 bytes of data
+20060208 002657.384  test.jav[16614] [D]: jMidWay.c(307)setting rc handle 32340a2e
+20060208 002657.384  test.jav[16614] [D]: jMidWay.c(313)setting rc 1
+20060208 002657.386  test.jav[16614] [D]: jMidWay.c(319)setting app rc 0
+20060208 002657.386  test.jav[16614] [D]: jMidWay.c(331)setting data                                                         len=55
+20060208 002657.387  test.jav[16614] [D]: jMidWay.c(286)doing fetch with handle 32340a2e
+20060208 002657.387  test.jav[16614] [1]: mwfetch(518): mwfetch called handle = 842271278
+20060208 002657.387  test.jav[16614] [1]: mwfetch(571): MWMULTIPLE flags set
+20060208 002657.387  test.jav[16614] [1]: _mwfetchipc(1387):  called for handle 842271278
+20060208 002657.387  test.jav[16614] [1]: popCallReplyByHandle(240): poping call with handle 842271278
+20060208 002657.387  test.jav[16614] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 002657.387  test.jav[16614] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 002657.387  test.jav[16614] [1]: popCallReplyByHandle(283): pop returned NULL
+20060208 005320.639  test.jav[20911] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 005320.642  test.jav[20911] [D]: jMidWay.c(70)start env=0x9dcd484 name=(nil) url=(nil)
+20060208 005320.643  test.jav[20911] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 005320.645  test.jav[20911] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 005320.646  test.jav[20911] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 005320.647  test.jav[20911] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 005320.649  test.jav[20911] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 005320.650  test.jav[20911] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 005320.651  test.jav[20911] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 005320.653  test.jav[20911] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 005320.654  test.jav[20911] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 005320.656  test.jav[20911] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1aed000
+20060208 005320.657  test.jav[20911] [1]: _mw_attach_ipc(234): client table attached at 0xb1ae9000
+20060208 005320.658  test.jav[20911] [1]: _mw_attach_ipc(242): Server table attached at 0xb1ae8000
+20060208 005320.659  test.jav[20911] [1]: _mw_attach_ipc(250): service table attached at 0xb1ae4000
+20060208 005320.668  test.jav[20911] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1ae2000
+20060208 005320.670  test.jav[20911] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1ae1000
+20060208 005320.671  test.jav[20911] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 2392068
+20060208 005320.672  test.jav[20911] [1]: _mw_attach_ipc(279): heap attached
+20060208 005320.674  test.jav[20911] [1]: addsegment(238): adding 0 on fd -1 start=0xb175c000 end=0xb1a96344
+20060208 005320.675  test.jav[20911] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 005320.676  test.jav[20911] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 005320.677  test.jav[20911] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 005320.678  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aed000
+20060208 005320.679  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005320.682  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  2392068
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.685  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005320.686  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 005320.688  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  2392068
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000013
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.691  test.jav[20911] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000013 flags=0x0 rcode=0
+20060208 005320.692  test.jav[20911] [D]: jMidWay.c(84)rel
+20060208 005320.693  test.jav[20911] [D]: jMidWay.c(89)end rc=0
+20060208 005320.697  test.jav[20911] [1]: mwdetach(497): mwdetach: detaching
+20060208 005320.698  test.jav[20911] [3]: _mwdetachipc(146): _mwdetachipc: system is not in shutdown
+20060208 005320.699  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(901): CALL: _mw_ipcsend_detach_indirect()
+20060208 005320.701  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(928): Sending a detach message client=TRUE server=FALSE
+20060208 005320.702  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aed000
+20060208 005320.703  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005320.705  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Request MESSAGE: 0x820
+          int         ipcqid             =  2392068
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000013
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.707  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005320.709  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2096, flags=0) returned 172 and 176 bytes of data
+20060208 005320.710  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Reply MESSAGE: 0x830
+          int         ipcqid             =  2392068
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000013
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.712  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(952): Received a detach message reply from mwd client = TRUE server = FALSE rcode=0
+20060208 005320.734  test.jav[20911] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 005320.738  test.jav[20911] [D]: jMidWay.c(70)start env=0x9dcd484 name=(nil) url=(nil)
+20060208 005320.739  test.jav[20911] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 005320.740  test.jav[20911] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 005320.742  test.jav[20911] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 005320.743  test.jav[20911] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 005320.744  test.jav[20911] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 005320.746  test.jav[20911] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 005320.747  test.jav[20911] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 005320.749  test.jav[20911] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 005320.750  test.jav[20911] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 005320.751  test.jav[20911] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1aec000
+20060208 005320.753  test.jav[20911] [1]: _mw_attach_ipc(234): client table attached at 0xb1ae8000
+20060208 005320.754  test.jav[20911] [1]: _mw_attach_ipc(242): Server table attached at 0xb1ae7000
+20060208 005320.756  test.jav[20911] [1]: _mw_attach_ipc(250): service table attached at 0xb1ae3000
+20060208 005320.757  test.jav[20911] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1ae1000
+20060208 005320.758  test.jav[20911] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1ae0000
+20060208 005320.759  test.jav[20911] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 2424836
+20060208 005320.761  test.jav[20911] [1]: _mw_attach_ipc(279): heap attached
+20060208 005320.762  test.jav[20911] [1]: addsegment(238): adding 0 on fd -1 start=0xb175c000 end=0xb1a96344
+20060208 005320.763  test.jav[20911] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 005320.766  test.jav[20911] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 005320.767  test.jav[20911] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 005320.769  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aec000
+20060208 005320.770  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005320.771  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  2424836
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.774  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005320.775  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 005320.776  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  2424836
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000014
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.778  test.jav[20911] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000014 flags=0x0 rcode=0
+20060208 005320.780  test.jav[20911] [D]: jMidWay.c(84)rel
+20060208 005320.781  test.jav[20911] [D]: jMidWay.c(89)end rc=0
+20060208 005320.783  test.jav[20911] [3]: _mw_list_services_byglob(695): glob is "*"
+20060208 005320.785  test.jav[20911] [3]: _mw_list_services_byglob(699): clearing the lists
+20060208 005320.786  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 0 service .mwsrvmgr type = 1
+20060208 005320.788  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.789  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 1 service shell type = 1
+20060208 005320.790  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 005320.791  test.jav[20911] [3]: _mw_list_services_byglob(728): checking the 0 matches we got for duplicates
+20060208 005320.793  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 2 service shell-eggis1 type = 1
+20060208 005320.794  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 005320.795  test.jav[20911] [3]: _mw_list_services_byglob(728): checking the 1 matches we got for duplicates
+20060208 005320.797  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 3 service ping type = 1
+20060208 005320.798  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 005320.799  test.jav[20911] [3]: _mw_list_services_byglob(728): checking the 2 matches we got for duplicates
+20060208 005320.801  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 4 service ping-eggis1 type = 1
+20060208 005320.802  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 005320.803  test.jav[20911] [3]: _mw_list_services_byglob(728): checking the 3 matches we got for duplicates
+20060208 005320.805  test.jav[20911] [3]: _mw_list_services_byglob(743): the matches 4
+20060208 005320.806  test.jav[20911] [3]: _mw_list_services_byglob(752): the total string length is 36
+20060208 005320.808  test.jav[20911] [3]: _mw_list_services_byglob(756): the total buffer length is 60
+20060208 005320.809  test.jav[20911] [D]: _mw_list_services_byglob(773): Completes
+20060208 005320.814  test.jav[20911] [3]: _mw_list_services_byglob(695): glob is "ping*"
+20060208 005320.815  test.jav[20911] [3]: _mw_list_services_byglob(699): clearing the lists
+20060208 005320.817  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 0 service .mwsrvmgr type = 1
+20060208 005320.818  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.819  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 1 service shell type = 1
+20060208 005320.820  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.822  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 2 service shell-eggis1 type = 1
+20060208 005320.823  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.824  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 3 service ping type = 1
+20060208 005320.825  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 005320.827  test.jav[20911] [3]: _mw_list_services_byglob(728): checking the 0 matches we got for duplicates
+20060208 005320.828  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 4 service ping-eggis1 type = 1
+20060208 005320.830  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 0 No match = 1
+20060208 005320.831  test.jav[20911] [3]: _mw_list_services_byglob(728): checking the 1 matches we got for duplicates
+20060208 005320.833  test.jav[20911] [3]: _mw_list_services_byglob(743): the matches 2
+20060208 005320.834  test.jav[20911] [3]: _mw_list_services_byglob(752): the total string length is 17
+20060208 005320.835  test.jav[20911] [3]: _mw_list_services_byglob(756): the total buffer length is 33
+20060208 005320.837  test.jav[20911] [D]: _mw_list_services_byglob(773): Completes
+20060208 005320.840  test.jav[20911] [3]: _mw_list_services_byglob(695): glob is "nomatch"
+20060208 005320.842  test.jav[20911] [3]: _mw_list_services_byglob(699): clearing the lists
+20060208 005320.843  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 0 service .mwsrvmgr type = 1
+20060208 005320.844  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.846  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 1 service shell type = 1
+20060208 005320.847  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.848  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 2 service shell-eggis1 type = 1
+20060208 005320.850  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.851  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 3 service ping type = 1
+20060208 005320.852  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.854  test.jav[20911] [3]: _mw_list_services_byglob(712): checking index 4 service ping-eggis1 type = 1
+20060208 005320.855  test.jav[20911] [3]: _mw_list_services_byglob(717): fnmatch returned 1 No match = 1
+20060208 005320.857  test.jav[20911] [3]: _mw_list_services_byglob(743): the matches 0
+20060208 005320.858  test.jav[20911] [3]: _mw_list_services_byglob(752): the total string length is 0
+20060208 005320.859  test.jav[20911] [3]: _mw_list_services_byglob(756): the total buffer length is 8
+20060208 005320.860  test.jav[20911] [D]: _mw_list_services_byglob(773): Completes
+20060208 005320.862  test.jav[20911] [1]: mwdetach(497): mwdetach: detaching
+20060208 005320.863  test.jav[20911] [3]: _mwdetachipc(146): _mwdetachipc: system is not in shutdown
+20060208 005320.868  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(901): CALL: _mw_ipcsend_detach_indirect()
+20060208 005320.869  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(928): Sending a detach message client=TRUE server=FALSE
+20060208 005320.870  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aec000
+20060208 005320.871  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005320.874  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Request MESSAGE: 0x820
+          int         ipcqid             =  2424836
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000014
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.877  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005320.878  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2096, flags=0) returned 172 and 176 bytes of data
+20060208 005320.879  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Reply MESSAGE: 0x830
+          int         ipcqid             =  2424836
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000014
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.882  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(952): Received a detach message reply from mwd client = TRUE server = FALSE rcode=0
+20060208 005320.899  test.jav[20911] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 005320.903  test.jav[20911] [D]: jMidWay.c(70)start env=0x9dcd484 name=(nil) url=(nil)
+20060208 005320.904  test.jav[20911] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 005320.906  test.jav[20911] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 005320.907  test.jav[20911] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 005320.908  test.jav[20911] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 005320.910  test.jav[20911] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 005320.911  test.jav[20911] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 005320.913  test.jav[20911] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 005320.915  test.jav[20911] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 005320.916  test.jav[20911] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 005320.917  test.jav[20911] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1aeb000
+20060208 005320.919  test.jav[20911] [1]: _mw_attach_ipc(234): client table attached at 0xb1ae7000
+20060208 005320.920  test.jav[20911] [1]: _mw_attach_ipc(242): Server table attached at 0xb1ae6000
+20060208 005320.921  test.jav[20911] [1]: _mw_attach_ipc(250): service table attached at 0xb1ae2000
+20060208 005320.923  test.jav[20911] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1ae0000
+20060208 005320.924  test.jav[20911] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1adf000
+20060208 005320.925  test.jav[20911] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 2457604
+20060208 005320.927  test.jav[20911] [1]: _mw_attach_ipc(279): heap attached
+20060208 005320.928  test.jav[20911] [1]: addsegment(238): adding 0 on fd -1 start=0xb175c000 end=0xb1a96344
+20060208 005320.930  test.jav[20911] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 005320.931  test.jav[20911] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 005320.933  test.jav[20911] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 005320.934  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aeb000
+20060208 005320.935  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005320.937  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  2457604
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.939  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005320.940  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 005320.942  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  2457604
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000015
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005320.944  test.jav[20911] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000015 flags=0x0 rcode=0
+20060208 005320.947  test.jav[20911] [D]: jMidWay.c(84)rel
+20060208 005320.949  test.jav[20911] [D]: jMidWay.c(89)end rc=0
+20060208 005320.950  test.jav[20911] [D]: jMidWay.c(253)Doing call svc=shell data=uptime(6) flags=0
+20060208 005320.952  test.jav[20911] [1]: mwacall(593): mwacall called for service shell
+20060208 005320.953  test.jav[20911] [3]: _mw_nexthandle(336): locking mutex callhandle ...
+20060208 005320.955  test.jav[20911] [1]: _mw_nexthandle(336): locked mutex callhandle
+20060208 005320.956  test.jav[20911] [1]: _mw_nexthandle(348): unlocking mutex callhandle
+20060208 005320.957  test.jav[20911] [1]: _mwacallipc(1206): BEGIN: (svcname=shell, data=0x9dcfa98, datalen=6, flags=0x40, mwid=0xffffffff, instance=(NULL), domain=(NULL), callerid=-1, hops=0
+20060208 005320.958  test.jav[20911] [1]: _mwacallipc(1233): doing mwid's
+20060208 005320.959  test.jav[20911] [3]: _mw_nexthandle(336): locking mutex callhandle ...
+20060208 005320.961  test.jav[20911] [1]: _mw_nexthandle(336): locked mutex callhandle
+20060208 005320.962  test.jav[20911] [1]: _mw_nexthandle(348): unlocking mutex callhandle
+20060208 005320.963  test.jav[20911] [1]: _mwacallipc(1282): doing data
+20060208 005320.965  test.jav[20911] [1]: >Enter>[1] _mwalloc
+20060208 005320.966  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 005320.968  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005320.970  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005320.971  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 424640 freecount = 99
+20060208 005320.973  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005320.974  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005320.975  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005320.977  test.jav[20911] [1]: find_bin(933): alloc size 6, size in chunks = 1, bin = 0
+20060208 005320.978  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 194
+20060208 005320.980  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 194
+20060208 005320.982  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 98
+20060208 005320.983  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 98
+20060208 005320.984  test.jav[20911] [3]: _mwalloc(984): first chunk 424640 freecount 99
+20060208 005320.985  test.jav[20911] [3]: popchunk(742): root offset = 424640
+20060208 005320.986  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c3ac0 is at 0xb17c3ac0 + 12 + 4 * 1024 = 0xb17c4acc
+20060208 005320.988  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c3ac0 foot adr 0xb17c4acc
+20060208 005320.989  test.jav[20911] [3]: popchunk(747): head at 0xb17c3ac0 footer at 0xb17c4acc
+20060208 005320.990  test.jav[20911] [3]: popchunk(748): footer: above = 424640 prev 432904 next 829576
+20060208 005320.991  test.jav[20911] [3]: _mwfooter(202): footer for 0xb1826888 is at 0xb1826888 + 12 + 4 * 1024 = 0xb1827894
+20060208 005320.993  test.jav[20911] [3]: _mwfooter(203): head adr 0xb1826888 foot adr 0xb1827894
+20060208 005320.995  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005320.997  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005320.998  test.jav[20911] [3]: popchunk(768): root offset now = 432904
+20060208 005320.999  test.jav[20911] [3]: popchunk(773): returning head at 0xb17c3ac0 
+20060208 005321.001  test.jav[20911] [3]: _mwalloc(988): first chunk 432904 freecount 98
+20060208 005321.002  test.jav[20911] [3]: _mwalloc(994): chunk has size in chunks 4 ownerid = ffffffff
+20060208 005321.003  test.jav[20911] [1]: _mwalloc(1013): _mwalloc(6) return a chunk with size 4096 at 0xb17c3acc 
+20060208 005321.004  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.006  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.007  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.009  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 432904 freecount = 98
+20060208 005321.010  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.011  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.012  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.013  test.jav[20911] [1]: >Leave[0] _mwalloc
+20060208 005321.015  test.jav[20911] [D]: _mw_putbuffer_to_call(585): copying data from 0x9dcfa98 to 0xb17c3acc-0xb17c3ad2
+20060208 005321.016  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.018  test.jav[20911] [1]: _mwshmcheck(699): buffer at 0xb17c3acc has size 4096
+20060208 005321.019  test.jav[20911] [1]: _mw_getsegment_byaddr(418): lookup of segment on addr 0xb17c3acc => 0x9dcfc68
+20060208 005321.020  test.jav[20911] [D]: _mw_putbuffer_to_call(593): data offset = 424652
+20060208 005321.021  test.jav[20911] [1]: _mwacallipc(1301): dataoffset 424652 length 6
+20060208 005321.023  test.jav[20911] [1]: _mwacallipc(1304): getting available servers
+20060208 005321.024  test.jav[20911] [3]: _mw_get_services_byname(626): getting the list of services that provide shell conv=0 ipconly=0
+20060208 005321.025  test.jav[20911] [3]: _mw_get_services_byname(640): clearing the slist
+20060208 005321.027  test.jav[20911] [3]: _mw_get_services_byname(645): we start at the random entry in the svctbl 63
+20060208 005321.028  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 0 service .mwsrvmgr type = 1
+20060208 005321.029  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 1 service shell type = 1
+20060208 005321.031  test.jav[20911] [3]: _mw_get_services_byname(664): adding svcentry with index 1 n = 0
+20060208 005321.032  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 2 service shell-eggis1 type = 1
+20060208 005321.033  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 3 service ping type = 1
+20060208 005321.034  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 4 service ping-eggis1 type = 1
+20060208 005321.036  test.jav[20911] [1]: _mwacallipc(1313): selecting 0 of 1 = 1
+20060208 005321.037  test.jav[20911] [1]: _mwacallipc(1327): Sending a ipcmessage to serviceid 0x8000001 service shell on server 0x1000001 my clientid 0x2000015 buffer at offset 424652 len 6 
+20060208 005321.039  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0x1000001 on mqueue 1736706
+20060208 005321.040  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.042  test.jav[20911] [1]: _mw_dumpmesg(550): Service Call MESSAGE: 0x100
+          int         handle             = 61602027
+          CLIENTID    cltid              = 0x2000015
+          SERVERID    srvid              = 0xffffffff
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139356400
+          int         uissued            = 958769
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 424652 "uptime"
+          int64_t     datalen            = 6
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 0
+20060208 005321.054  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1736706, msglen=280, flags=0) returned 0
+20060208 005321.056  test.jav[20911] [1]: _mwacallipc(1333): _mw_ipc_putmessage returned 0 handle is 61602027
+20060208 005321.057  test.jav[20911] [1]: _mwacallipc(1351): done
+20060208 005321.058  test.jav[20911] [1]: mwacall(615): returning 61602027
+20060208 005321.060  test.jav[20911] [D]: jMidWay.c(267)Good return acall 61602027
+20060208 005321.065  test.jav[20911] [D]: jMidWay.c(286)doing fetch with handle 3abf8eb
+20060208 005321.066  test.jav[20911] [1]: mwfetch(518): mwfetch called handle = 61602027
+20060208 005321.067  test.jav[20911] [1]: mwfetch(571): MWMULTIPLE flags set
+20060208 005321.070  test.jav[20911] [1]: _mwfetchipc(1387):  called for handle 61602027
+20060208 005321.071  test.jav[20911] [1]: popCallReplyByHandle(240): poping call with handle 61602027
+20060208 005321.072  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.074  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.075  test.jav[20911] [1]: popCallReplyByHandle(283): pop returned NULL
+20060208 005321.077  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=272, flags=64) returned 280 and 284 bytes of data
+20060208 005321.078  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.079  test.jav[20911] [1]: _mw_dumpmesg(550): Call Reply MESSAGE: 0x110
+          int         handle             = 61602027
+          CLIENTID    cltid              = 0x2000015
+          SERVERID    srvid              = 0x1000001
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139356400
+          int         uissued            = 958769
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 432916 " 00:53:21 up 16:46,  5 users,  load average: 0.94, 0.42, 0.26?"
+          int64_t     datalen            = 62
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 2
+20060208 005321.082  test.jav[20911] [1]: _mwfetchipc(1436): Got a message of type 0x110 handle 61602027 
+20060208 005321.084  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.085  test.jav[20911] [3]: _mwfetchipc(1456): copying data to local byffer, freeing shm buffer
+20060208 005321.087  test.jav[20911] [1]: _mwfetchipc(1463): owner id of data is CLT:0
+20060208 005321.088  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 11
+  number of bins    : 6
+20060208 005321.090  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.091  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.093  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 97
+20060208 005321.094  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.096  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.097  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.098  test.jav[20911] [3]: _mwfree(1260): shm buffer
+20060208 005321.099  test.jav[20911] [1]: _mwfree0(1120): checking to see if the address is in the chuck area of the heap
+20060208 005321.101  test.jav[20911] [1]: _mwfree0(1122): top = 108 < adr = 432916 < 3384024, bottom
+20060208 005321.102  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.103  test.jav[20911] [1]: _mwfree0(1143): d = 2.000000, bin = 2
+20060208 005321.105  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 0 is 1024 bytes total size 212000 bytes 
+20060208 005321.106  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 1 is 2048 bytes total size 208400 bytes 
+20060208 005321.107  test.jav[20911] [1]: _mw_gettopofbin(1305): top of bin 2 is 420508 
+20060208 005321.109  test.jav[20911] [1]: _mwfree0(1159): bin 2 start 420508, 4132 bytes per chunk, 12396 bytes offset into chunk area
+20060208 005321.110  test.jav[20911] [1]: _mwfree0(1166): bin 2 chunk index 3 of 100
+20060208 005321.111  test.jav[20911] [1]: _mwfree0(1177): 12396 % 4132 = 0 shall be 0
+20060208 005321.113  test.jav[20911] [1]: _mwfree0(1185): size 4 ownerid=CLT:0 Bin = 4096 2
+20060208 005321.114  test.jav[20911] [1]: _mwfree0(1199): Clearinbg buffer 4096 bytes
+20060208 005321.115  test.jav[20911] [3]: pushchunk(788): inserting buffer at offset 432904
+20060208 005321.116  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.117  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.118  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.120  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.122  test.jav[20911] [3]: pushchunk(812): prev buffer head at offset 428772 next at offset 437036
+20060208 005321.123  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c6b2c is at 0xb17c6b2c + 12 + 4 * 1024 = 0xb17c7b38
+20060208 005321.125  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c6b2c foot adr 0xb17c7b38
+20060208 005321.126  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.128  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.129  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.131  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.133  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.134  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 98
+20060208 005321.135  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.137  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.138  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.139  test.jav[20911] [1]: _mwfetchipc(1469): owner id of data is CLT:0
+20060208 005321.141  test.jav[20911] [1]: _mwfetchipc(1482): returned with returncode=2 and with 62 bytes of data
+20060208 005321.142  test.jav[20911] [D]: jMidWay.c(307)setting rc handle 3abf8eb
+20060208 005321.143  test.jav[20911] [D]: jMidWay.c(313)setting rc 2
+20060208 005321.145  test.jav[20911] [D]: jMidWay.c(319)setting app rc 0
+20060208 005321.146  test.jav[20911] [D]: jMidWay.c(331)setting data  00:53:21 up 16:46,  5 users,  load average: 0.94, 0.42, 0.26
+ len=62
+20060208 005321.151  test.jav[20911] [D]: jMidWay.c(286)doing fetch with handle 3abf8eb
+20060208 005321.153  test.jav[20911] [1]: mwfetch(518): mwfetch called handle = 61602027
+20060208 005321.154  test.jav[20911] [1]: mwfetch(571): MWMULTIPLE flags set
+20060208 005321.156  test.jav[20911] [1]: _mwfetchipc(1387):  called for handle 61602027
+20060208 005321.158  test.jav[20911] [1]: popCallReplyByHandle(240): poping call with handle 61602027
+20060208 005321.159  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.160  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.161  test.jav[20911] [1]: popCallReplyByHandle(283): pop returned NULL
+20060208 005321.162  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=272, flags=64) returned 280 and 284 bytes of data
+20060208 005321.163  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.171  test.jav[20911] [1]: _mw_dumpmesg(550): Call Reply MESSAGE: 0x110
+          int         handle             = 61602027
+          CLIENTID    cltid              = 0x2000015
+          SERVERID    srvid              = 0x1000001
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139356400
+          int         uissued            = 958769
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 424652 "??real     0.005196 user  0.000 system  0.000 status 0?"
+          int64_t     datalen            = 55
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 1
+20060208 005321.174  test.jav[20911] [1]: _mwfetchipc(1436): Got a message of type 0x110 handle 61602027 
+20060208 005321.175  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.177  test.jav[20911] [3]: _mwfetchipc(1456): copying data to local byffer, freeing shm buffer
+20060208 005321.179  test.jav[20911] [1]: _mwfetchipc(1463): owner id of data is CLT:0
+20060208 005321.180  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.182  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.183  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.185  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 98
+20060208 005321.186  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.188  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.189  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.191  test.jav[20911] [3]: _mwfree(1260): shm buffer
+20060208 005321.192  test.jav[20911] [1]: _mwfree0(1120): checking to see if the address is in the chuck area of the heap
+20060208 005321.193  test.jav[20911] [1]: _mwfree0(1122): top = 108 < adr = 424652 < 3384024, bottom
+20060208 005321.194  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.195  test.jav[20911] [1]: _mwfree0(1143): d = 2.000000, bin = 2
+20060208 005321.196  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 0 is 1024 bytes total size 212000 bytes 
+20060208 005321.198  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 1 is 2048 bytes total size 208400 bytes 
+20060208 005321.199  test.jav[20911] [1]: _mw_gettopofbin(1305): top of bin 2 is 420508 
+20060208 005321.199  test.jav[20911] [1]: _mwfree0(1159): bin 2 start 420508, 4132 bytes per chunk, 4132 bytes offset into chunk area
+20060208 005321.201  test.jav[20911] [1]: _mwfree0(1166): bin 2 chunk index 1 of 100
+20060208 005321.203  test.jav[20911] [1]: _mwfree0(1177): 4132 % 4132 = 0 shall be 0
+20060208 005321.204  test.jav[20911] [1]: _mwfree0(1185): size 4 ownerid=CLT:0 Bin = 4096 2
+20060208 005321.205  test.jav[20911] [1]: _mwfree0(1199): Clearinbg buffer 4096 bytes
+20060208 005321.207  test.jav[20911] [3]: pushchunk(788): inserting buffer at offset 424640
+20060208 005321.208  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c3ac0 is at 0xb17c3ac0 + 12 + 4 * 1024 = 0xb17c4acc
+20060208 005321.209  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c3ac0 foot adr 0xb17c4acc
+20060208 005321.210  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.211  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.213  test.jav[20911] [3]: pushchunk(812): prev buffer head at offset 428772 next at offset 432904
+20060208 005321.214  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.215  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.217  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.218  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.219  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 005321.221  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.223  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.224  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 99
+20060208 005321.226  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.227  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.228  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.230  test.jav[20911] [1]: _mwfetchipc(1469): owner id of data is CLT:0
+20060208 005321.231  test.jav[20911] [1]: _mwfetchipc(1482): returned with returncode=1 and with 55 bytes of data
+20060208 005321.233  test.jav[20911] [D]: jMidWay.c(307)setting rc handle 3abf8eb
+20060208 005321.234  test.jav[20911] [D]: jMidWay.c(313)setting rc 1
+20060208 005321.235  test.jav[20911] [D]: jMidWay.c(319)setting app rc 0
+20060208 005321.237  test.jav[20911] [D]: jMidWay.c(331)setting data 
+
+real     0.005196 user  0.000 system  0.000 status 0
+ len=55
+20060208 005321.243  test.jav[20911] [D]: jMidWay.c(253)Doing call svc=shell data=id(2) flags=0
+20060208 005321.244  test.jav[20911] [1]: mwacall(593): mwacall called for service shell
+20060208 005321.245  test.jav[20911] [3]: _mw_nexthandle(336): locking mutex callhandle ...
+20060208 005321.246  test.jav[20911] [1]: _mw_nexthandle(336): locked mutex callhandle
+20060208 005321.248  test.jav[20911] [1]: _mw_nexthandle(348): unlocking mutex callhandle
+20060208 005321.250  test.jav[20911] [1]: _mwacallipc(1206): BEGIN: (svcname=shell, data=0x9dcfa98, datalen=2, flags=0x40, mwid=0xffffffff, instance=(NULL), domain=(NULL), callerid=-1, hops=0
+20060208 005321.251  test.jav[20911] [1]: _mwacallipc(1233): doing mwid's
+20060208 005321.252  test.jav[20911] [3]: _mw_nexthandle(336): locking mutex callhandle ...
+20060208 005321.254  test.jav[20911] [1]: _mw_nexthandle(336): locked mutex callhandle
+20060208 005321.254  test.jav[20911] [1]: _mw_nexthandle(348): unlocking mutex callhandle
+20060208 005321.256  test.jav[20911] [1]: _mwacallipc(1282): doing data
+20060208 005321.257  test.jav[20911] [1]: >Enter>[1] _mwalloc
+20060208 005321.258  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 005321.260  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.261  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.262  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 99
+20060208 005321.263  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.265  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.266  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.267  test.jav[20911] [1]: find_bin(933): alloc size 2, size in chunks = 1, bin = 0
+20060208 005321.269  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 194
+20060208 005321.271  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 194
+20060208 005321.272  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 98
+20060208 005321.274  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 98
+20060208 005321.275  test.jav[20911] [3]: _mwalloc(984): first chunk 428772 freecount 99
+20060208 005321.276  test.jav[20911] [3]: popchunk(742): root offset = 428772
+20060208 005321.277  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.278  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.279  test.jav[20911] [3]: popchunk(747): head at 0xb17c4ae4 footer at 0xb17c5af0
+20060208 005321.281  test.jav[20911] [3]: popchunk(748): footer: above = 428772 prev 424640 next 829576
+20060208 005321.282  test.jav[20911] [3]: _mwfooter(202): footer for 0xb1826888 is at 0xb1826888 + 12 + 4 * 1024 = 0xb1827894
+20060208 005321.283  test.jav[20911] [3]: _mwfooter(203): head adr 0xb1826888 foot adr 0xb1827894
+20060208 005321.285  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c3ac0 is at 0xb17c3ac0 + 12 + 4 * 1024 = 0xb17c4acc
+20060208 005321.286  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c3ac0 foot adr 0xb17c4acc
+20060208 005321.287  test.jav[20911] [3]: popchunk(768): root offset now = 424640
+20060208 005321.289  test.jav[20911] [3]: popchunk(773): returning head at 0xb17c4ae4 
+20060208 005321.290  test.jav[20911] [3]: _mwalloc(988): first chunk 424640 freecount 98
+20060208 005321.291  test.jav[20911] [3]: _mwalloc(994): chunk has size in chunks 4 ownerid = ffffffff
+20060208 005321.292  test.jav[20911] [1]: _mwalloc(1013): _mwalloc(2) return a chunk with size 4096 at 0xb17c4af0 
+20060208 005321.293  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.295  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.298  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.299  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 424640 freecount = 98
+20060208 005321.300  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.302  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.303  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.304  test.jav[20911] [1]: >Leave[0] _mwalloc
+20060208 005321.306  test.jav[20911] [D]: _mw_putbuffer_to_call(585): copying data from 0x9dcfa98 to 0xb17c4af0-0xb17c4af2
+20060208 005321.307  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.308  test.jav[20911] [1]: _mwshmcheck(699): buffer at 0xb17c4af0 has size 4096
+20060208 005321.309  test.jav[20911] [1]: _mw_getsegment_byaddr(418): lookup of segment on addr 0xb17c4af0 => 0x9dcfc68
+20060208 005321.310  test.jav[20911] [D]: _mw_putbuffer_to_call(593): data offset = 428784
+20060208 005321.311  test.jav[20911] [1]: _mwacallipc(1301): dataoffset 428784 length 2
+20060208 005321.313  test.jav[20911] [1]: _mwacallipc(1304): getting available servers
+20060208 005321.314  test.jav[20911] [3]: _mw_get_services_byname(626): getting the list of services that provide shell conv=0 ipconly=0
+20060208 005321.315  test.jav[20911] [3]: _mw_get_services_byname(640): clearing the slist
+20060208 005321.316  test.jav[20911] [3]: _mw_get_services_byname(645): we start at the random entry in the svctbl 71
+20060208 005321.318  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 0 service .mwsrvmgr type = 1
+20060208 005321.319  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 1 service shell type = 1
+20060208 005321.321  test.jav[20911] [3]: _mw_get_services_byname(664): adding svcentry with index 1 n = 0
+20060208 005321.322  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 2 service shell-eggis1 type = 1
+20060208 005321.323  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 3 service ping type = 1
+20060208 005321.324  test.jav[20911] [3]: _mw_get_services_byname(657): checking index 4 service ping-eggis1 type = 1
+20060208 005321.325  test.jav[20911] [1]: _mwacallipc(1313): selecting 0 of 1 = 1
+20060208 005321.327  test.jav[20911] [1]: _mwacallipc(1327): Sending a ipcmessage to serviceid 0x8000001 service shell on server 0x1000001 my clientid 0x2000015 buffer at offset 428784 len 2 
+20060208 005321.329  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0x1000001 on mqueue 1736706
+20060208 005321.330  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.331  test.jav[20911] [1]: _mw_dumpmesg(550): Service Call MESSAGE: 0x100
+          int         handle             = 61602029
+          CLIENTID    cltid              = 0x2000015
+          SERVERID    srvid              = 0xffffffff
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139356401
+          int         uissued            = 251214
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 428784 "id"
+          int64_t     datalen            = 2
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 0
+20060208 005321.343  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1736706, msglen=280, flags=0) returned 0
+20060208 005321.345  test.jav[20911] [1]: _mwacallipc(1333): _mw_ipc_putmessage returned 0 handle is 61602029
+20060208 005321.346  test.jav[20911] [1]: _mwacallipc(1351): done
+20060208 005321.347  test.jav[20911] [1]: mwacall(615): returning 61602029
+20060208 005321.349  test.jav[20911] [D]: jMidWay.c(267)Good return acall 61602029
+20060208 005321.350  test.jav[20911] [D]: jMidWay.c(286)doing fetch with handle 3abf8ed
+20060208 005321.351  test.jav[20911] [1]: mwfetch(518): mwfetch called handle = 61602029
+20060208 005321.353  test.jav[20911] [1]: mwfetch(532): No MWMULTIPLE flags set, collection all replies
+20060208 005321.354  test.jav[20911] [1]: _mwfetchipc(1387):  called for handle 61602029
+20060208 005321.355  test.jav[20911] [1]: popCallReplyByHandle(240): poping call with handle 61602029
+20060208 005321.357  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.358  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.359  test.jav[20911] [1]: popCallReplyByHandle(283): pop returned NULL
+20060208 005321.360  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=272, flags=0) returned 280 and 284 bytes of data
+20060208 005321.361  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.362  test.jav[20911] [1]: _mw_dumpmesg(550): Call Reply MESSAGE: 0x110
+          int         handle             = 61602029
+          CLIENTID    cltid              = 0x2000015
+          SERVERID    srvid              = 0x1000001
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139356401
+          int         uissued            = 251214
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 424652 "uid=500(terje) gid=500(terje) groups=500(terje)?"
+          int64_t     datalen            = 48
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 2
+20060208 005321.366  test.jav[20911] [1]: _mwfetchipc(1436): Got a message of type 0x110 handle 61602029 
+20060208 005321.368  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.370  test.jav[20911] [3]: _mwfetchipc(1456): copying data to local byffer, freeing shm buffer
+20060208 005321.372  test.jav[20911] [1]: _mwfetchipc(1463): owner id of data is CLT:0
+20060208 005321.374  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 11
+  number of bins    : 6
+20060208 005321.377  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.378  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.379  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 432904 freecount = 97
+20060208 005321.381  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.383  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.384  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.385  test.jav[20911] [3]: _mwfree(1260): shm buffer
+20060208 005321.386  test.jav[20911] [1]: _mwfree0(1120): checking to see if the address is in the chuck area of the heap
+20060208 005321.388  test.jav[20911] [1]: _mwfree0(1122): top = 108 < adr = 424652 < 3384024, bottom
+20060208 005321.389  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.390  test.jav[20911] [1]: _mwfree0(1143): d = 2.000000, bin = 2
+20060208 005321.391  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 0 is 1024 bytes total size 212000 bytes 
+20060208 005321.393  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 1 is 2048 bytes total size 208400 bytes 
+20060208 005321.395  test.jav[20911] [1]: _mw_gettopofbin(1305): top of bin 2 is 420508 
+20060208 005321.396  test.jav[20911] [1]: _mwfree0(1159): bin 2 start 420508, 4132 bytes per chunk, 4132 bytes offset into chunk area
+20060208 005321.398  test.jav[20911] [1]: _mwfree0(1166): bin 2 chunk index 1 of 100
+20060208 005321.399  test.jav[20911] [1]: _mwfree0(1177): 4132 % 4132 = 0 shall be 0
+20060208 005321.400  test.jav[20911] [1]: _mwfree0(1185): size 4 ownerid=CLT:0 Bin = 4096 2
+20060208 005321.402  test.jav[20911] [1]: _mwfree0(1199): Clearinbg buffer 4096 bytes
+20060208 005321.403  test.jav[20911] [3]: pushchunk(788): inserting buffer at offset 424640
+20060208 005321.404  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c3ac0 is at 0xb17c3ac0 + 12 + 4 * 1024 = 0xb17c4acc
+20060208 005321.405  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c3ac0 foot adr 0xb17c4acc
+20060208 005321.406  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.407  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.409  test.jav[20911] [3]: pushchunk(812): prev buffer head at offset 432904 next at offset 437036
+20060208 005321.411  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c6b2c is at 0xb17c6b2c + 12 + 4 * 1024 = 0xb17c7b38
+20060208 005321.412  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c6b2c foot adr 0xb17c7b38
+20060208 005321.414  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.415  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.416  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.418  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.419  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.420  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 432904 freecount = 98
+20060208 005321.422  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.423  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.424  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.426  test.jav[20911] [1]: _mwfetchipc(1469): owner id of data is CLT:0
+20060208 005321.427  test.jav[20911] [1]: _mwfetchipc(1482): returned with returncode=2 and with 48 bytes of data
+20060208 005321.428  test.jav[20911] [1]: mwfetch(539): protocol level fetch returned 2 datalen = 48
+20060208 005321.430  test.jav[20911] [1]: mwfetch(559): Adding reply: *data = 0x9dd3da0 appending at 0x9dd3da0 old len = 0 new len = 48
+20060208 005321.431  test.jav[20911] [1]: _mwfetchipc(1387):  called for handle 61602029
+20060208 005321.433  test.jav[20911] [1]: popCallReplyByHandle(240): poping call with handle 61602029
+20060208 005321.435  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.436  test.jav[20911] [1]: debugReplyQueue(202):  Callreply queue length = 0 free 0
+20060208 005321.438  test.jav[20911] [1]: popCallReplyByHandle(283): pop returned NULL
+20060208 005321.439  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=272, flags=0) returned 280 and 284 bytes of data
+20060208 005321.440  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.441  test.jav[20911] [1]: _mw_dumpmesg(550): Call Reply MESSAGE: 0x110
+          int         handle             = 61602029
+          CLIENTID    cltid              = 0x2000015
+          SERVERID    srvid              = 0x1000001
+          SERVICEID   svcid              = 0x8000001
+          GATEWAYID   gwid               = 0xffffffff
+          MWID        callerid           = 0xffffffff
+          int         forwardcount       = 0
+          char        service            = shell
+          char        origservice        = shell
+          time_t      issued             = 1139356401
+          int         uissued            = 251214
+          int         timeout            = 0
+	  int32_t     datasegmentid      = 0
+          int64_t     data               = 428784 "??real     0.006478 user  0.000 system  0.000 status 0?"
+          int64_t     datalen            = 55
+          int         appreturncode      = 0
+          int         flags              = 0x40
+          char        domainname         = 
+          int         returncode         = 1
+20060208 005321.445  test.jav[20911] [1]: _mwfetchipc(1436): Got a message of type 0x110 handle 61602029 
+20060208 005321.446  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dcfc68
+20060208 005321.447  test.jav[20911] [3]: _mwfetchipc(1456): copying data to local byffer, freeing shm buffer
+20060208 005321.448  test.jav[20911] [1]: _mwfetchipc(1463): owner id of data is CLT:0
+20060208 005321.450  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.451  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.453  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.454  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 432904 freecount = 98
+20060208 005321.456  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.458  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.459  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.461  test.jav[20911] [3]: _mwfree(1260): shm buffer
+20060208 005321.462  test.jav[20911] [1]: _mwfree0(1120): checking to see if the address is in the chuck area of the heap
+20060208 005321.464  test.jav[20911] [1]: _mwfree0(1122): top = 108 < adr = 428784 < 3384024, bottom
+20060208 005321.465  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.467  test.jav[20911] [1]: _mwfree0(1143): d = 2.000000, bin = 2
+20060208 005321.468  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 0 is 1024 bytes total size 212000 bytes 
+20060208 005321.469  test.jav[20911] [1]: _mw_gettopofbin(1302): chunks in bin 1 is 2048 bytes total size 208400 bytes 
+20060208 005321.470  test.jav[20911] [1]: _mw_gettopofbin(1305): top of bin 2 is 420508 
+20060208 005321.471  test.jav[20911] [1]: _mwfree0(1159): bin 2 start 420508, 4132 bytes per chunk, 8264 bytes offset into chunk area
+20060208 005321.473  test.jav[20911] [1]: _mwfree0(1166): bin 2 chunk index 2 of 100
+20060208 005321.474  test.jav[20911] [1]: _mwfree0(1177): 8264 % 4132 = 0 shall be 0
+20060208 005321.475  test.jav[20911] [1]: _mwfree0(1185): size 4 ownerid=CLT:0 Bin = 4096 2
+20060208 005321.477  test.jav[20911] [1]: _mwfree0(1199): Clearinbg buffer 4096 bytes
+20060208 005321.478  test.jav[20911] [3]: pushchunk(788): inserting buffer at offset 428772
+20060208 005321.479  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.481  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.482  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.483  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.484  test.jav[20911] [3]: pushchunk(812): prev buffer head at offset 432904 next at offset 424640
+20060208 005321.486  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c3ac0 is at 0xb17c3ac0 + 12 + 4 * 1024 = 0xb17c4acc
+20060208 005321.487  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c3ac0 foot adr 0xb17c4acc
+20060208 005321.488  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.489  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.491  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 005321.493  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.494  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.495  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 432904 freecount = 99
+20060208 005321.497  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.498  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.499  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.501  test.jav[20911] [1]: _mwfetchipc(1469): owner id of data is CLT:0
+20060208 005321.502  test.jav[20911] [1]: _mwfetchipc(1482): returned with returncode=1 and with 55 bytes of data
+20060208 005321.503  test.jav[20911] [1]: mwfetch(539): protocol level fetch returned 1 datalen = 55
+20060208 005321.505  test.jav[20911] [1]: mwfetch(559): Adding reply: *data = 0x9dd3da0 appending at 0x9dd3dd0 old len = 48 new len = 55
+20060208 005321.506  test.jav[20911] [D]: jMidWay.c(307)setting rc handle 3abf8ed
+20060208 005321.507  test.jav[20911] [D]: jMidWay.c(313)setting rc 1
+20060208 005321.509  test.jav[20911] [D]: jMidWay.c(319)setting app rc 0
+20060208 005321.510  test.jav[20911] [D]: jMidWay.c(331)setting data uid=500(terje) gid=500(terje) groups=500(terje)
+
+
+real     0.006478 user  0.000 system  0.000 status 0
+ len=103
+20060208 005321.516  test.jav[20911] [1]: mwdetach(497): mwdetach: detaching
+20060208 005321.517  test.jav[20911] [3]: _mwdetachipc(146): _mwdetachipc: system is not in shutdown
+20060208 005321.518  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(901): CALL: _mw_ipcsend_detach_indirect()
+20060208 005321.519  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(928): Sending a detach message client=TRUE server=FALSE
+20060208 005321.521  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aeb000
+20060208 005321.522  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005321.523  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Request MESSAGE: 0x820
+          int         ipcqid             =  2457604
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000015
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005321.526  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005321.528  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2096, flags=0) returned 172 and 176 bytes of data
+20060208 005321.529  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Reply MESSAGE: 0x830
+          int         ipcqid             =  2457604
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000015
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005321.531  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(952): Received a detach message reply from mwd client = TRUE server = FALSE rcode=0
+20060208 005321.549  test.jav[20911] [D]: mwsetloglevel(498): loglevel is now Debug3: 
+20060208 005321.553  test.jav[20911] [D]: jMidWay.c(70)start env=0x9dcd484 name=(nil) url=(nil)
+20060208 005321.554  test.jav[20911] [D]: jMidWay.c(81)attach ((null), (null))
+20060208 005321.555  test.jav[20911] [3]: mwattach(406): _mwsystemstate returned -119
+20060208 005321.557  test.jav[20911] [1]: _mwdecode_url(446): _mwdecode_url: Attempting to get the URL from Env var MWADDRESS
+20060208 005321.559  test.jav[20911] [1]: _mwdecode_url(451): _mwdecode_url: Attempting to get the URL from Env var MWURL
+20060208 005321.560  test.jav[20911] [1]: _mwdecode_url(459): _mwdecode_url: we have no url, assuming ipc:500
+20060208 005321.561  test.jav[20911] [D]: mwattach(463): attaching to IPC name=java, IPCKEY=0x1f4 type=0x1
+20060208 005321.562  test.jav[20911] [3]: _mwattachipc(129): _mwattachipc: Attaching to IPC with key 500
+20060208 005321.563  test.jav[20911] [1]: _mw_attach_ipc(201): _mw_attachipc(key=500, type=CLIENT(1)) readonly=4096
+20060208 005321.564  test.jav[20911] [1]: _mw_attach_ipc(213): main shm info table has id 4423709
+20060208 005321.566  test.jav[20911] [1]: _mw_attach_ipc(223): main shm info table attached at 0xb1aea000
+20060208 005321.567  test.jav[20911] [1]: _mw_attach_ipc(234): client table attached at 0xb1ae6000
+20060208 005321.568  test.jav[20911] [1]: _mw_attach_ipc(242): Server table attached at 0xb1ae5000
+20060208 005321.569  test.jav[20911] [1]: _mw_attach_ipc(250): service table attached at 0xb1ae1000
+20060208 005321.570  test.jav[20911] [1]: _mw_attach_ipc(258): gateway table attached at 0xb1adf000
+20060208 005321.572  test.jav[20911] [1]: _mw_attach_ipc(266): convserver table attached at 0xb1ade000
+20060208 005321.574  test.jav[20911] [1]: _mw_attach_ipc(274): My request/reply queue has IPC id 2490372
+20060208 005321.575  test.jav[20911] [1]: _mw_attach_ipc(279): heap attached
+20060208 005321.577  test.jav[20911] [1]: addsegment(238): adding 0 on fd -1 start=0xb175c000 end=0xb1a96344
+20060208 005321.578  test.jav[20911] [3]: _mwattachipc(133): _mwattachipc: Sending attach request to mwd type=1 name = java
+20060208 005321.579  test.jav[20911] [1]: _mw_ipcsend_attach(795): CALL: _mw_ipcsend_attach (1, "java", 0x0)
+20060208 005321.581  test.jav[20911] [1]: _mw_ipcsend_attach(825): Sending an attach message to mwd name = java, client = TRUE server = FALSE size = 176
+20060208 005321.582  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aea000
+20060208 005321.583  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005321.585  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Request MESSAGE: 0x800
+          int         ipcqid             =  2490372
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005321.588  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005321.590  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2064, flags=0) returned 172 and 176 bytes of data
+20060208 005321.591  test.jav[20911] [1]: _mw_dumpmesg(498): Attach Reply MESSAGE: 0x810
+          int         ipcqid             =  2490372
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0xffffffff
+          int         client             =  1
+          char        cltname            =  java
+          CLIENTID    cltid              =  0x2000016
+          GATEWAYID   gwid               =  0xffffffff
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005321.593  test.jav[20911] [1]: _mw_ipcsend_attach(854): Received an attach message reply from mwd name = java, client = TRUE server = FALSE srvid=0xffffffff cltid=0x2000016 flags=0x0 rcode=0
+20060208 005321.594  test.jav[20911] [D]: jMidWay.c(84)rel
+20060208 005321.596  test.jav[20911] [D]: jMidWay.c(89)end rc=0
+20060208 005321.598  test.jav[20911] [D]: jMidWay.c(374)Doing event name=hei data=data(4) username=(null) clientname=(null)
+20060208 005321.599  test.jav[20911] [1]: mwevent(793): called with event hei
+20060208 005321.601  test.jav[20911] [1]: >Enter>[1] _mwalloc
+20060208 005321.602  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 9
+  number of bins    : 6
+20060208 005321.604  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.606  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.607  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 432904 freecount = 99
+20060208 005321.608  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.609  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.611  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.612  test.jav[20911] [1]: find_bin(933): alloc size 4, size in chunks = 1, bin = 0
+20060208 005321.613  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 194
+20060208 005321.614  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 194
+20060208 005321.615  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 98
+20060208 005321.616  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 98
+20060208 005321.617  test.jav[20911] [3]: _mwalloc(984): first chunk 432904 freecount 99
+20060208 005321.619  test.jav[20911] [3]: popchunk(742): root offset = 432904
+20060208 005321.621  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c5b08 is at 0xb17c5b08 + 12 + 4 * 1024 = 0xb17c6b14
+20060208 005321.622  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c5b08 foot adr 0xb17c6b14
+20060208 005321.624  test.jav[20911] [3]: popchunk(747): head at 0xb17c5b08 footer at 0xb17c6b14
+20060208 005321.625  test.jav[20911] [3]: popchunk(748): footer: above = 432904 prev 428772 next 829576
+20060208 005321.626  test.jav[20911] [3]: _mwfooter(202): footer for 0xb1826888 is at 0xb1826888 + 12 + 4 * 1024 = 0xb1827894
+20060208 005321.627  test.jav[20911] [3]: _mwfooter(203): head adr 0xb1826888 foot adr 0xb1827894
+20060208 005321.629  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.630  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.631  test.jav[20911] [3]: popchunk(768): root offset now = 428772
+20060208 005321.633  test.jav[20911] [3]: popchunk(773): returning head at 0xb17c5b08 
+20060208 005321.634  test.jav[20911] [3]: _mwalloc(988): first chunk 428772 freecount 98
+20060208 005321.635  test.jav[20911] [3]: _mwalloc(994): chunk has size in chunks 4 ownerid = ffffffff
+20060208 005321.637  test.jav[20911] [1]: _mwalloc(1013): _mwalloc(4) return a chunk with size 4096 at 0xb17c5b14 
+20060208 005321.638  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.640  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.641  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.643  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 98
+20060208 005321.644  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.646  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.647  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.649  test.jav[20911] [1]: >Leave[0] _mwalloc
+20060208 005321.650  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.651  test.jav[20911] [1]: _mwshmcheck(699): buffer at 0xb17c5b14 has size 4096
+20060208 005321.653  test.jav[20911] [1]: _mw_ipcsend_event(1743): Sending a ipcmessage to mwd event hei id 0x2000016 buffer at offset 432916 len 4 
+20060208 005321.654  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aea000
+20060208 005321.655  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005321.657  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dd4748
+20060208 005321.658  test.jav[20911] [1]: _mw_dumpmesg(585): Event MESSAGE: 0x400
+          event                          = hei
+          MWID        eventid            = 0
+          MWID        subscriptionid     = -1
+          MWID        senderid           = 0x2000016
+            CLIENTID    cltid            = 22
+            SERVERID    srvid            = -1
+            SERVICEID   svcid            = -1
+            GATEWAYID   gwid             = -1
+          int32_t     datasegmentid      = 0
+          int64_t     data               = 432916 "data"
+          int64_t     datalen            = 4
+          char        username           = 
+          char        clientname         = 
+          int         flags              = 0
+
+20060208 005321.661  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=240, flags=0) returned 0
+20060208 005321.662  test.jav[20911] [1]: _mw_ipcsend_event(1747): _mw_ipc_putmessage returned 0
+20060208 005321.663  test.jav[20911] [D]: jMidWay.c(394)Good return acall 0
+20060208 005321.665  test.jav[20911] [D]: jMidWay.c(451)subscribe to event
+20060208 005321.667  test.jav[20911] [D]: jMidWay.c(418)assigned free subent subid 42
+20060208 005321.668  test.jav[20911] [D]: jMidWay.c(467)subscribe to event event1
+20060208 005321.675  test.jav[20911] [D]: jMidWay.c(470)new glob ref 0x99e44c8 old glob ref 0xb1b739b4
+20060208 005321.677  test.jav[20911] [1]: _mw_ipcsend_subscribe(1576): Sending a ipcmessage to mwd subscribe event1 subid 42  flags 0 
+20060208 005321.678  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aea000
+20060208 005321.679  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005321.680  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dd4748
+20060208 005321.682  test.jav[20911] [1]: _mw_dumpmesg(618): Subscribe Request MESSAGE: 0x420
+ event                          = event1
+ MWID        subscriptionid     = 42
+ MWID        senderid           = 0x2000016
+   CLIENTID    cltid            = 22
+   SERVERID    srvid            = -1
+   SERVICEID   svcid            = -1
+   GATEWAYID   gwid             = -1
+ int32_t     datasegmentid      = 0
+ int64_t     data               = 0 ""
+ int64_t     datalen            = 0
+ int32_t     flags              = 0
+ int32_t     returncode         = 0
+
+20060208 005321.684  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=240, flags=0) returned 0
+20060208 005321.685  test.jav[20911] [1]: _mw_ipcsend_subscribe(1614): _mw_ipc_putmessage returned 0
+20060208 005321.691  test.jav[20911] [D]: jMidWay.c(374)Doing event name=event1 data=event data(10) username=(null) clientname=(null)
+20060208 005321.693  test.jav[20911] [1]: mwevent(793): called with event event1
+20060208 005321.694  test.jav[20911] [1]: >Enter>[1] _mwalloc
+20060208 005321.695  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 10
+  number of bins    : 6
+20060208 005321.697  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.698  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.699  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 428772 freecount = 98
+20060208 005321.700  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.701  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.702  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.703  test.jav[20911] [1]: find_bin(933): alloc size 10, size in chunks = 1, bin = 0
+20060208 005321.706  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 194
+20060208 005321.707  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 194
+20060208 005321.708  test.jav[20911] [3]: _mwalloc(984): first chunk 0 freecount 98
+20060208 005321.709  test.jav[20911] [3]: _mwalloc(988): first chunk 0 freecount 98
+20060208 005321.710  test.jav[20911] [3]: _mwalloc(984): first chunk 428772 freecount 98
+20060208 005321.711  test.jav[20911] [3]: popchunk(742): root offset = 428772
+20060208 005321.713  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c4ae4 is at 0xb17c4ae4 + 12 + 4 * 1024 = 0xb17c5af0
+20060208 005321.715  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c4ae4 foot adr 0xb17c5af0
+20060208 005321.716  test.jav[20911] [3]: popchunk(747): head at 0xb17c4ae4 footer at 0xb17c5af0
+20060208 005321.717  test.jav[20911] [3]: popchunk(748): footer: above = 428772 prev 424640 next 829576
+20060208 005321.718  test.jav[20911] [3]: _mwfooter(202): footer for 0xb1826888 is at 0xb1826888 + 12 + 4 * 1024 = 0xb1827894
+20060208 005321.720  test.jav[20911] [3]: _mwfooter(203): head adr 0xb1826888 foot adr 0xb1827894
+20060208 005321.721  test.jav[20911] [3]: _mwfooter(202): footer for 0xb17c3ac0 is at 0xb17c3ac0 + 12 + 4 * 1024 = 0xb17c4acc
+20060208 005321.722  test.jav[20911] [3]: _mwfooter(203): head adr 0xb17c3ac0 foot adr 0xb17c4acc
+20060208 005321.724  test.jav[20911] [3]: popchunk(768): root offset now = 424640
+20060208 005321.725  test.jav[20911] [3]: popchunk(773): returning head at 0xb17c4ae4 
+20060208 005321.726  test.jav[20911] [3]: _mwalloc(988): first chunk 424640 freecount 97
+20060208 005321.727  test.jav[20911] [3]: _mwalloc(994): chunk has size in chunks 4 ownerid = ffffffff
+20060208 005321.728  test.jav[20911] [1]: _mwalloc(1013): _mwalloc(10) return a chunk with size 4096 at 0xb17c4af0 
+20060208 005321.730  test.jav[20911] [3]: debug_segmentheader(223): SHM SEGMENT @ 0xb175c000
+  magic             : 19799
+  chunkspersize     : 100
+  basechunksize     : 1024
+  segmentsize       : 3384132
+  top               : 108
+  bottom            : 3384024
+  inusecount        : 11
+  number of bins    : 6
+20060208 005321.731  test.jav[20911] [3]: debug_segmentheader(225):     Bin 0: chunk = 0 freecount = 194
+20060208 005321.733  test.jav[20911] [3]: debug_segmentheader(225):     Bin 1: chunk = 0 freecount = 98
+20060208 005321.734  test.jav[20911] [3]: debug_segmentheader(225):     Bin 2: chunk = 424640 freecount = 97
+20060208 005321.735  test.jav[20911] [3]: debug_segmentheader(225):     Bin 3: chunk = 833708 freecount = 100
+20060208 005321.737  test.jav[20911] [3]: debug_segmentheader(225):     Bin 4: chunk = 1656508 freecount = 100
+20060208 005321.739  test.jav[20911] [3]: debug_segmentheader(225):     Bin 5: chunk = 0 freecount = 0
+20060208 005321.740  test.jav[20911] [1]: >Leave[0] _mwalloc
+20060208 005321.741  test.jav[20911] [3]: getchunksizebyadr(616): si->segmentid = 0 size = 4
+20060208 005321.742  test.jav[20911] [1]: _mwshmcheck(699): buffer at 0xb17c4af0 has size 4096
+20060208 005321.743  test.jav[20911] [1]: _mw_ipcsend_event(1743): Sending a ipcmessage to mwd event event1 id 0x2000016 buffer at offset 428784 len 10 
+20060208 005321.745  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aea000
+20060208 005321.746  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005321.748  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dd4748
+20060208 005321.749  test.jav[20911] [1]: _mw_dumpmesg(585): Event MESSAGE: 0x400
+          event                          = event1
+          MWID        eventid            = 0
+          MWID        subscriptionid     = -1
+          MWID        senderid           = 0x2000016
+            CLIENTID    cltid            = 22
+            SERVERID    srvid            = -1
+            SERVICEID   svcid            = -1
+            GATEWAYID   gwid             = -1
+          int32_t     datasegmentid      = 0
+          int64_t     data               = 428784 "event data"
+          int64_t     datalen            = 10
+          char        username           = 
+          char        clientname         = 
+          int         flags              = 0
+
+20060208 005321.751  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=240, flags=0) returned 0
+20060208 005321.753  test.jav[20911] [1]: _mw_ipcsend_event(1747): _mw_ipc_putmessage returned 0
+20060208 005321.755  test.jav[20911] [D]: jMidWay.c(394)Good return acall 0
+20060208 005331.761  test.jav[20911] [D]: jMidWay.c(609)calling recvevents
+20060208 005331.762  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=1024, flags=2048) returned 240 and 244 bytes of data
+20060208 005331.762  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dd4748
+20060208 005331.762  test.jav[20911] [1]: _mw_dumpmesg(585): Event MESSAGE: 0x400
+          event                          = event1
+          MWID        eventid            = 0
+          MWID        subscriptionid     = 42
+          MWID        senderid           = 0
+            CLIENTID    cltid            = -1
+            SERVERID    srvid            = -1
+            SERVICEID   svcid            = -1
+            GATEWAYID   gwid             = -1
+          int32_t     datasegmentid      = 0
+          int64_t     data               = 428784 "event data"
+          int64_t     datalen            = 10
+          char        username           = 
+          char        clientname         = 
+          int         flags              = 0
+
+20060208 005331.762  test.jav[20911] [1]: _mw_do_ipcevent(168): We got an event event1 subscription id 42
+20060208 005331.762  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dd4748
+20060208 005331.762  test.jav[20911] [3]: _mw_do_ipcevent(174): ev->data 428784, addr = 0xb17c4af0 data = event data
+20060208 005331.762  test.jav[20911] [3]: _mw_doevent(831): locking mutex eventmutex ...
+20060208 005331.762  test.jav[20911] [1]: _mw_doevent(831): locked mutex eventmutex
+20060208 005331.762  test.jav[20911] [D]: jMidWay.c(495)got an event id=42 name=event1
+20060208 005331.762  test.jav[20911] [D]: jMidWay.c(511)event handler cls ptr=0x99a7ae0
+20060208 005331.762  test.jav[20911] [D]: jMidWay.c(515)event handler method ptr=0x9ac7610
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(528)cls ptr=0x99a7af8
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(539)field id ptr=0x42
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(545)field id ptr=0x22
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(551)field id ptr=0x32
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(557)constructor ptr=0x9cd4920
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(565)event object ptr=0x99a7afc
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(575)new glob ref 0x9dc3940 old glob ref 0x99a7b00
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(585)new glob ref 0x9dc3944 old glob ref 0x99a7b04
+20060208 005331.763  test.jav[20911] [D]: jMidWay.c(595)calling event handler
+20060208 005331.772  test.jav[20911] [D]: jMidWay.c(598)done
+20060208 005331.772  test.jav[20911] [1]: _mw_doevent(835): unlocking mutex eventmutex
+20060208 005331.772  test.jav[20911] [1]: _mw_do_ipcevent(182): Sending event ack
+20060208 005331.772  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aea000
+20060208 005331.772  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005331.772  test.jav[20911] [1]: _mw_getsegment_byid(401): lookup of segment id 0 => 0x9dd4748
+20060208 005331.772  test.jav[20911] [1]: _mw_dumpmesg(585): Event Ack MESSAGE: 0x410
+          event                          = event1
+          MWID        eventid            = 0
+          MWID        subscriptionid     = 42
+          MWID        senderid           = 0x2000016
+            CLIENTID    cltid            = 22
+            SERVERID    srvid            = -1
+            SERVICEID   svcid            = -1
+            GATEWAYID   gwid             = -1
+          int32_t     datasegmentid      = 0
+          int64_t     data               = 428784 "event data"
+          int64_t     datalen            = 10
+          char        username           = 
+          char        clientname         = 
+          int         flags              = 0
+
+20060208 005331.772  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=240, flags=0) returned 0
+20060208 005331.773  test.jav[20911] [1]: _mw_ipc_getmessage(687): msgrcv in _mw_ipc_getmessage nowait an no message
+20060208 005331.773  test.jav[20911] [D]: jMidWay.c(611)done
+20060208 005331.773  test.jav[20911] [1]: mwdetach(497): mwdetach: detaching
+20060208 005331.773  test.jav[20911] [3]: _mwdetachipc(146): _mwdetachipc: system is not in shutdown
+20060208 005331.773  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(901): CALL: _mw_ipcsend_detach_indirect()
+20060208 005331.773  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(928): Sending a detach message client=TRUE server=FALSE
+20060208 005331.773  test.jav[20911] [1]: _mw_mwd_mqid(325): lookup of mwd msgqid gave 1703937 from ipcmain at 0xb1aea000
+20060208 005331.773  test.jav[20911] [1]: _mw_ipc_putmessage(731): _mw_ipc_putmessage: got a request to send a message to  0 on mqueue 1703937
+20060208 005331.773  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Request MESSAGE: 0x820
+          int         ipcqid             =  2490372
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000016
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005331.773  test.jav[20911] [1]: _mw_ipc_putmessage(741): _mw_ipc_putmessage: msgsnd(dest=1703937, msglen=172, flags=0) returned 0
+20060208 005331.783  test.jav[20911] [1]: _mw_ipc_getmessage(697): _mw_ipc_getmessage a msgrcv(type=2096, flags=0) returned 172 and 176 bytes of data
+20060208 005331.783  test.jav[20911] [1]: _mw_dumpmesg(498): Detach Reply MESSAGE: 0x830
+          int         ipcqid             =  2490372
+          pid_t       pid                =  20911
+          int         server             =  0
+          char        srvname            =  
+          SERVERID    srvid              =  0
+          int         client             =  1
+          char        cltname            =  
+          CLIENTID    cltid              =  0x2000016
+          GATEWAYID   gwid               =  0
+          int         flags              =  0
+          int         returncode         =  0
+20060208 005331.783  test.jav[20911] [1]: _mw_ipcsend_detach_indirect(952): Received a detach message reply from mwd client = TRUE server = FALSE rcode=0

@@ -1,0 +1,51 @@
+SHELL = /bin/sh
+top_srcdir = @top_srcdir@
+srcdir = @srcdir@
+VPATH = @srcdir@
+
+.SUFFIXES:
+.SUFFIXES: .c .o
+
+
+CC = @CC@
+
+CFLAGS= -I. -I@JAVAPREFIX@/include -I@JAVAPREFIX@/include/linux -I/usr/local/include @CFLAGS@ -O0
+
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+INSTALL = @INSTALL@
+
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+bindir = $(exec_prefix)/bin
+libdir = $(prefix)/lib
+infodir = $(prefix)/info
+
+
+JAVAH = @JAVAH@
+CLASSPATH=.. # $(HOME)/projects/jMidWay
+
+all: libjMidWay.so
+
+../org/midway/MidWay.class:
+	(cd ../org/midway; make all)
+
+jMidWay.h: ../org/midway/MidWay.class
+	rm $@
+	$(JAVAH) -classpath $(CLASSPATH) -o jMidWay.h org.midway.MidWay
+
+libjMidWay.so: jMidWay.o 
+	$(CC) -g -o $@ -shared $+ -lMidWay
+
+install: all
+	@INSTALL@ -D -m 644 libjMidWay.so $(libdir)/libjMidWay.so
+
+uninstall:
+	rm -f $(libdir)/libjMidWay.so
+
+jMidWay.o: jMidWay.c jMidWay.h
+	$(CC) -c -fpic -g  $(CFLAGS) $<
+
+
+clean:
+	rm -f *.so *.o 
