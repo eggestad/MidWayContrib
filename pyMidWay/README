@@ -1,0 +1,17 @@
+This is the python bindings for MidWay (http://www.mid-way.org). 
+
+You must have MidWay runtime installed already, either the rpm or build + install. 
+
+If you're new to MidWay make sure your read the MidWay(7) man page,
+and all the methods within this module are mapped to their C
+counterparts. Read the C man pages for details on the methods
+operation, and help(midway) within python for python spesific calling
+conventions.
+
+To build and install run
+$ ./setup.py build
+# ./setup.py install
+
+
+This code is distributed under the GNU Library General Public License,
+see COPYING for details.
