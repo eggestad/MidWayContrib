@@ -1,0 +1,44 @@
+This is the Perl native module for MidWay.  MidWay must be installed
+in order for this module to compile.
+
+And of course you must have perl 5.00X or better installed.
+I've developed with 5.00503
+
+Installation:
+-------------
+
+Unpack at a temp directory, since you're reading this, you probably
+already done so.
+
+run perl Makefile.PL
+
+This created a lot of stuff that your not meant to understand, unless
+you're accustomed to perl XS modules. What is important is that this
+creates a Makefile.
+
+run make
+
+now you can test it by using the -I option to perl, like
+perl -I blib/arch/auto/MidWay/ test.pl
+
+If you're satisfied, install it into the perl lib three by running
+
+make install
+
+You must MOST likely be root to run this step, or you've a broken perl
+installation.
+
+
+
+That's all folks!!!!!
+
+
+
+For more info see the MidWay documentation, or visit
+http://www.mid-way.org
+
+
+Terje Eggestad
+terje.eggestad@iname.com
+
+

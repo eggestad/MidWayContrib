@@ -1,0 +1,889 @@
+? diff
+Index: Makefile.PL
+===================================================================
+RCS file: /cvsroot/midway/perl-MidWay/Makefile.PL,v
+retrieving revision 1.1.1.1
+retrieving revision 1.2
+diff -r1.1.1.1 -r1.2
+0a1
+> 
+Index: MidWay.pm
+===================================================================
+RCS file: /cvsroot/midway/perl-MidWay/MidWay.pm,v
+retrieving revision 1.2
+retrieving revision 1.4
+diff -r1.2 -r1.4
+16,68c16,82
+< 	MWCLIENT
+< 	MWCLIENTMASK
+< 	MWCONV
+< 	MWFAIL
+< 	MWFASTPATH
+< 	MWGATEWAY
+< 	MWGATEWAYMASK
+< 	MWINDEXMASK
+< 	MWLOG_ALERT
+< 	MWLOG_DEBUG
+< 	MWLOG_DEBUG1
+< 	MWLOG_DEBUG2
+< 	MWLOG_DEBUG3
+< 	MWLOG_DEBUG4
+< 	MWLOG_ERROR
+< 	MWLOG_FATAL
+< 	MWLOG_INFO
+< 	MWLOG_WARNING
+< 	MWMAXNAMELEN
+< 	MWMAXSVCNAME
+< 	MWMORE
+< 	MWMULTIPLE
+< 	MWNOBLOCK
+< 	MWNOREPLY
+< 	MWNOTCLIENT
+< 	MWNOTIME
+< 	MWNOTRAN
+< 	MWSAFEPATH
+< 	MWSERVER
+< 	MWSERVERMASK
+< 	MWSERVERONLY
+< 	MWSERVICEMASK
+< 	MWSIGRST
+< 	MWSTDIO
+< 	MWSUCCESS
+< 	MWUNIQUE
+< 	mwattach
+< 	mwdetach
+<         mwcall
+<         mwacall
+<         mwfetch
+< 	mwopenlog
+< 	mwsetloglevel
+< 	mwlog
+< 	mwbegin
+< 	mwcommit
+< 	mwabort
+< 	mwprovide
+< 	mwunprovide
+<         mwreply
+<         mwforward
+< 	mwservicerequest
+<         mwMainLoop
+---
+> 	     MWCLIENT
+> 	     MWCLIENTMASK
+> 	     MWCONV
+> 	     MWEVSTRING
+> 	     MWEVGLOB
+> 	     MWEVREGEXP
+> 	     MWEVEREGEXP
+> 	     MWFAIL
+> 	     MWFASTPATH
+> 	     MWGATEWAY
+> 	     MWGATEWAYMASK
+> 	     MWINDEXMASK
+> 	     MWLOG_ALERT
+> 	     MWLOG_DEBUG
+> 	     MWLOG_DEBUG1
+> 	     MWLOG_DEBUG2
+> 	     MWLOG_DEBUG3
+> 	     MWLOG_DEBUG4
+> 	     MWLOG_ERROR
+> 	     MWLOG_FATAL
+> 	     MWLOG_INFO
+> 	     MWLOG_WARNING
+> 	     MWMAXNAMELEN
+> 	     MWMAXSVCNAME
+> 	     MWMORE
+> 	     MWMULTIPLE
+> 	     MWNOBLOCK
+> 	     MWNOREPLY
+> 	     MWNOTCLIENT
+> 	     MWNOTIME
+> 	     MWNOTRAN
+> 	     MWSAFEPATH
+> 	     MWSERVER
+> 	     MWSERVERMASK
+> 	     MWSERVERONLY
+> 	     MWSERVICEMASK
+> 	     MWSIGRST
+> 	     MWSTDIO
+> 	     MWSUCCESS
+> 	     MWUNIQUE
+> 	     mwattach
+> 	     mwdetach
+> 	     mwlistsvc
+> 	     mwcall
+> 	     mwacall
+> 	     mwfetch
+> 	     mwopenlog
+> 	     mwsetloglevel
+> 	     mwlog
+> 	     mwbegin
+> 	     mwcommit
+> 	     mwabort
+> 	     mwprovide
+> 	     mwunprovide
+> 	     mwreply
+> 	     mwforward
+> 	     mwservicerequest
+> 	     mwMainLoop
+> 	     mwaddtask
+> 	     mwwaketask
+> 	     mwsettaskinterval
+> 	     mwdotasks
+> 	     mwevent
+> 	     mweventbcast
+> 	     mwsubscribe
+> 	     mwunsubscribe
+> 	     mwrecvevents
+82a97,117
+> #
+> #
+> #
+> 
+> sub debug1 {
+>     my $fmt = shift;
+>     mw_log(6, sprintf($fmt, @_));
+> };
+> 
+> sub debug {
+>     my $fmt = shift;
+>     mw_log(5, sprintf($fmt, @_));
+> #    print sprintf($fmt, @_), "\n";
+> };
+> 
+> sub Error {
+>     my $fmt = shift;
+>     mw_log(1, sprintf($fmt, @_));
+> #    print sprintf($fmt, @_), "\n";
+> };
+> 
+89a125
+>     debug1 "mwattach: ", @_;
+100a137,144
+> sub mwlistsvc {
+>     my @rc;
+>     debug1 ("mwlistsvc start");
+>     @rc = listservices(@_);
+>     debug1 ("mwlistsvc end");
+>     return @rc;
+> }
+> 
+143c187
+<     $rc = (@_);
+---
+>     $rc = begin(@_);
+165c209
+< sub mwprovide  ($&$) {
+---
+> sub mwprovide  ( $&$ ) {
+174,175c218
+< 	mwlog(MWLOG_DEBUG1(), 
+< 	      "mwprovide aborts we're not attached to an instance");
+---
+> 	debug1("mwprovide aborts we're not attached to an instance");
+180,181c223
+< 	mwlog(MWLOG_DEBUG1(), 
+< 	      "mwprovide aborts because instance is in shutdown state");
+---
+> 	debug1("mwprovide aborts because instance is in shutdown state");
+187,188c229
+< 	mwlog(MWLOG_DEBUG1(), 
+< 	      "mwprovide aborts because ipc_provide failed");
+---
+> 	debug1("mwprovide aborts because ipc_provide failed");
+191c232
+<     mwlog(MWLOG_DEBUG1(), "provide of $svcname succeded svcid=%#x", $svcid);
+---
+>     debug1("provide of $svcname succeded svcid=%#x", $svcid);
+200c241
+< sub mwunprovide ($) {
+---
+> sub mwunprovide ( $ ) {
+206,207c247
+< 	mwlog(MWLOG_DEBUG1(), 
+< 	      "mwprovide aborts we're not attached to an instance");
+---
+> 	debug1("mwprovide aborts we're not attached to an instance");
+212,213c252
+< 	mwlog(MWLOG_DEBUG1(), 
+< 	      "mwprovide aborts because instance is in shutdown state");
+---
+> 	debug1("mwprovide aborts because instance is in shutdown state");
+219c258
+<     mwlog(MWLOG_DEBUG1(), "unprovide of $svcname succeded");
+---
+>     debug1("unprovide of $svcname succeded");
+227c266
+<     if (!($_[3] && MWMORE())) {
+---
+>     if ($_[1] != MWMORE()) {
+257,258c296
+<     mwlog (MWLOG_DEBUG1(), 
+<     "Get Service request returned (", scalar(keys(%svcinfo)), ")");
+---
+>     debug1 ("Get Service request returned (", scalar(keys(%svcinfo)), ")");
+262,263c300
+< 	mwlog MWLOG_DEBUG1(), "Failed to get a service request, reason %d", 
+< 	$svcinfo{'errorcode'};
+---
+> 	debug1("Failed to get a service request, reason %d", $svcinfo{'errorcode'});
+269c306
+< 	mwlog MWLOG_ERROR(), "got an unepected service request for %s", 
+---
+> 	Error "got an unepected service request for %s", 
+274,276d310
+<     $requestpending = 1;
+<     $rc = 0; 
+<     $requestpending = 1;
+293c327
+< 	mwlog MWLOG_DEBUG1(), "MainLoop are calling mwservicerequest";
+---
+> 	debug1 "MainLoop are calling mwservicerequest";
+303a338,477
+> my %tasks = ();
+> 
+> sub task_dispatch {
+>     my $pt = shift;
+>     my $rc;
+>     my $ref;
+>     debug1 "task dispatch pt = $pt\n";
+>     $ref = $tasks{$pt};
+>     debug1 "task ref = $ref\n";
+>     $rc = &$ref;
+>     
+>     return $rc;
+> };
+> 
+> 
+> sub mwaddtask {
+>     my $funcref;
+>     my $interval = -1;
+>     my $delay = 0;
+>     my $pt; 
+> 
+>     if (!defined($_[0]) || ! ref($_[0])) {
+> 	die("mwaddtask myst be passed an reference to a function as fist argument.");
+>     };
+>     $funcref = $_[0];
+> 
+>     if (defined $_[1]) {
+> 	$interval  = int($_[1]);
+>     };
+> 
+>     if (defined $_[2]) {
+> 	$delay  = int($_[2]);
+>     };
+> 
+>     $pt = addtaskdelayed($interval, $delay);
+>     debug1 "mwaddtask pt = $pt ref = $funcref\n";
+>     $tasks{$pt} = $funcref;
+> 
+>     return $pt
+> };
+> 
+> sub mwwaketask {
+>     my $task = shift;
+>     
+>     return waketask($task);
+> };
+> 
+> sub mwsettaskinterval {
+>     my $task = shift;
+>     my $interval = -1;
+>     
+>     if (defined($_[1])) {
+> 	$interval = int($_[1]);
+>     };
+> 	
+>     return settaskinterval($task, $interval);
+> };
+> 
+> sub  mwdotasks {
+>     dotasks();
+> };
+> 
+> 
+> ######################################################################
+> my %eventsubs = ();
+> my $lastsubid = 0;
+> 
+> sub mwevent {
+>     my $event = shift;
+>     my $data = shift;
+>     my $user = shift;
+>     my $name = shift;
+>     my $rc;
+> 
+>     debug1 ("event: $event data=$data user=$user clientname=$name");
+> 
+>     $rc = event($event, $data, $user, $name);
+>     debug1 ("event rc = $rc");
+> 
+>     return $rc;
+> };
+> 
+> sub event_dispatch {
+>     my $subid = shift;
+>     my $event = shift; 
+>     my $data = shift;
+>     my $funcref;
+>     
+>     debug1("got $subid for event $event \"$data\"");
+> 
+>     $funcref = $eventsubs{$subid};
+> 
+>     if (!ref ($funcref)) { return; };
+>     
+>     &$funcref($event, $data);
+>     
+>     return;
+> };
+> 
+> sub mwsubscribe {
+>     my $pattern = shift;
+>     my $flags = shift;
+>     my $funcref = shift;
+>     my $subid; 
+>     my $rc;
+> 
+>     $subid = $lastsubid++;
+>     debug1 ("mwsubscribe: pattern $pattern subid $subid flags $flags"); 
+> 
+>     $subid = subscribe($pattern, $flags, $subid);
+>     if ($rc >= 0) {
+> 	$eventsubs{$subid} = $funcref;
+>     };
+>     
+>     return $subid;
+> };
+> 
+> sub mwunsubscribe {
+>     my $subid = shift;
+>     
+>     delete $eventsubs{$subid};
+>     
+>     return unsubscribe ($subid);
+> };
+> 
+>     
+> sub mweventbcast {
+>     my $event = shift;
+>     my $data = shift;
+> 
+>     return mwevent $event, $data, undef, undef;
+> };
+> 
+> sub mwrecvevents {
+>     recvevents();
+> };
+> 
+> 
+> ######################################################################
+> 
+314a489
+>     debug1 "Constant $constname = $val\n";
+325c500
+<     *$AUTOLOAD = sub () { $val };
+---
+>     *$AUTOLOAD = sub  { $val };
+331a507,508
+> set_task_dispatch(\&task_dispatch);
+> set_event_dispatch(\&event_dispatch);
+347c524
+< =head2 Client API
+---
+> =head2 Client Service Call API
+349,350c526
+<     $rc = mwattach ["url" [, "progname" 
+<                    [, "username", [ "password", [ flags]]]]];
+---
+>     $rc = mwattach ["url" [, "progname" [ flags]]];
+353a530,532
+> 
+>     $rc = mwsetcred authentication_type, "username" [, ...];
+> 
+357a537,540
+>     @svclist = mwlistsvc [ glob ];
+> 
+> =head2 Logging API
+> 
+363c546
+< 
+---
+>     
+378a562
+> 
+384a569,599
+>     sub tasklet {
+>         my $taskref = shift;
+> 	return 0;
+>     }                
+>   
+> =head2 Tasklet API
+> 
+>     $taskref = mwaddtask \&tasklet, interval [, initialdelay]; 
+>     $rc = mwwaketask $taskref;
+>     $rc = mwsettaskinterval $taskref, $interval;
+> 
+>     mwdotasks ;
+> 
+> =head2 Event API
+>     $rc = mweventbcast $eventname [, $data];
+> 
+>     $rc = mwevent $eventname, $data, $username, $clientname;
+> 
+>     sub eventhandler {
+> 	my $event = shift;
+> 	my $data =) shift;
+> 
+> 	return;
+>     };
+> 
+>     $subid = mwsubscribe $pattern, $flags, \&eventhandler;
+> 
+>     $rc = mwunsubscribe $subid;
+> 
+>     mwrecvevents();
+> 
+391,392c606,607
+< require any compilation.  Of course it only support the SRB
+< protocol. This native module does it all.
+---
+> require any compilation.  Of course it only support the SRB protocol,
+> and call/forward/reply only.  This native module does it all.
+396,402c611,622
+< All char * data, int datalen pairs are replace by a Perl scalar, 
+< pretty straight forward since Perl scalars may contain NUL chars.
+< 
+< mwcall and mwfetch return a list instead of returning thru their parameters.
+< This make more sense in Perl. Just note that in case of failure 
+< they return a list with one element only, the return code. 
+< This might change in order to be more in compliance to Perl error handling.
+---
+> All char * data, int datalen pairs are replace by a Perl scalar,
+> pretty straight forward since Perl scalars may contain NUL chars.  If
+> you want to do the equivalent to NULL for data, pass undef as data
+> argument.
+> 
+> Function pointers are replaced by references to Perl subroutines.
+> 
+> mwcall and mwfetch return a list instead of returning thru their
+> parameters.  This make more sense in Perl. Just note that in case of
+> failure they return a list with one element only, the return code.
+> This might change in order to be more in compliance to Perl error
+> handling.
+416a637,640
+>   MWEVSTRING
+>   MWEVGLOB
+>   MWEVREGEXP
+>   MWEVEREGEXP
+Index: MidWay.xs
+===================================================================
+RCS file: /cvsroot/midway/perl-MidWay/MidWay.xs,v
+retrieving revision 1.3
+diff -r1.3 MidWay.xs
+0a1
+> // -*- c -*- 
+7c8,9
+< static char * CVSId = "$Id: MidWay.xs,v 1.3 2000/11/29 23:18:08 eggestad Exp $";
+---
+> static char * CVSId = "$Id: MidWay.xs,v 1.6 2004/06/17 09:51:41 eggestad Exp $";
+> 
+15a18,20
+> #define debug(fmt, ...) do { mwlog(MWLOG_DEBUG1, "%s(%d): " fmt, __FUNCTION__, __LINE__, ## __VA_ARGS__); } while(0)
+> 
+> 
+18a24
+>    debug ("adding constant %s", name);
+69a76,99
+> 	    if (strEQ(name, "MWEVSTRING"))
+> #ifdef MWEVSTRING
+>             return MWEVSTRING;
+> #else
+>             goto not_there;
+> #endif
+> 	    if (strEQ(name, "MWEVGLOB"))
+> #ifdef MWEVGLOB
+>             return MWEVGLOB;
+> #else
+>             goto not_there;
+> #endif
+> 	    if (strEQ(name, "MWEVREGEXP"))
+> #ifdef MWEVREGEXP
+>             return MWEVREGEXP;
+> #else
+>             goto not_there;
+> #endif
+> 	    if (strEQ(name, "MWEVEREGEXP"))
+> #ifdef MWEVEREGEXP
+>             return MWEVEREGEXP;
+> #else
+>             goto not_there;
+> #endif
+315a346,420
+> /************************************************************************
+>  *
+>  * task helpers, the SV point to the perl wrapper func, and the 
+>  * perlcalltaskwrapper call it. 
+> 
+>  * Whats happening here is almost pure magic, see perlcall(3)
+>  */
+> 
+> static SV * perl_task_dispatch = (SV*)NULL;
+> static SV * perl_event_dispatch = (SV*)NULL;
+> 
+> static int 
+> perlcalltaskwrapper(PTask pt)
+> {
+>    int rc;
+>    dSP ;
+>    int count ;
+> 
+>    ENTER ;
+>    SAVETMPS ;
+>    
+>    PUSHMARK(SP) ;
+>    XPUSHs(sv_2mortal(newSViv((IV)pt)));
+>    PUTBACK ;    	
+> 
+> 
+>    debug ("calling task wrapper with pt = %ld perl_task_dispatch = %p", pt, perl_task_dispatch);
+> 
+>    count = call_sv(perl_task_dispatch, G_SCALAR) ;  
+> 
+>    debug ("couht = %d", count);
+> 
+>    SPAGAIN ;
+> 
+>    if (count != 1)
+>       croak("Big trouble\n") ;
+>    
+>    rc = POPi;
+>    debug("rc = %d", rc);
+>    
+>    PUTBACK ;
+>    
+>    FREETMPS ;
+>    LEAVE ;
+>    return 0;
+> };
+> 
+> static void 
+> perl_event_hdl(int subid, char * event, char * data, int datalen)
+> {
+>    int rc;
+>    dSP ;
+>    
+>    debug("enter: subid %d event %s data \"%s\"", subid, event, data);
+>    ENTER ;
+>    SAVETMPS ;
+>    
+>    PUSHMARK(SP) ;
+>    XPUSHs(sv_2mortal(newSViv(subid)));
+>    XPUSHs(sv_2mortal(newSVpv(event, strlen(event))));
+>    XPUSHs(sv_2mortal(newSVpv(data, datalen)));
+>    PUTBACK ;    	
+> 
+> 
+>    debug ("calling EVENT wrapper");
+> 
+>    call_sv(perl_event_dispatch, G_DISCARD) ;  
+> 
+>    FREETMPS ;
+>    LEAVE ;
+>    debug("leave");
+>    return;
+> };
+> 
+> // THe module begin in ernest. 
+318a424
+> PROTOTYPES: ENABLE
+332c438,451
+< attach( ...)
+---
+> attach(addr = NULL, name = NULL, flags = 0)
+> char * addr;
+> char * name;
+> int flags;
+> CODE:
+>         if (addr && strlen(addr) == 0) addr = NULL;
+> 	RETVAL = mwattach(addr, name, flags);
+> OUTPUT:
+> 	RETVAL
+> 
+> int 
+> setcred(authtype, username = NULL, ...)
+> int authtype;
+> char * username; 
+334,338d452
+< 	char * addr = NULL;	
+< 	char * name = NULL;
+< 	char * username = NULL;
+< 	char * password = 0;
+< 	int flags = 0;
+342,343c456,457
+< 
+< 	CODE:
+---
+> CODE:
+> 	/*
+369,372c483,484
+< 		if (errorflag == 0) 
+< 			RETVAL = mwattach(addr, name, username, password, flags);
+< 		else 
+< 			RETVAL = errorflag;
+---
+> 	*/
+> 	RETVAL = mwsetcred(authtype, username);
+388a501,519
+> listservices(glob = "*")
+> char *  glob;
+> PREINIT:
+> int flags = 0;
+> int rc, i;
+> char ** plist;
+> PPCODE:
+> 	rc = mwlistsvc(glob, &plist, flags);
+>         mwlog(MWLOG_DEBUG, "list = %d", rc);
+>         if (rc > 0) { 
+> 	   EXTEND(SP, rc);
+> 	   for (i = 0; i < rc; i++) {
+> 	      PUSHs(sv_2mortal(newSVpv(plist[i], 0)));
+> 	   };
+> 	   free(plist);
+> 
+> 	};
+> 
+> void
+410,418c541,547
+< 	if (rc == 0) {
+< 		EXTEND(SP, 3);	
+< 		PUSHs(sv_2mortal(newSViv(rc)));
+< 		PUSHs(sv_2mortal(newSVpv(rdata, rdatalen)));
+< 		PUSHs(sv_2mortal(newSViv(apprc)));	
+< 	} else {
+< 		EXTEND(SP, 1);
+< 		PUSHs(sv_2mortal(newSViv(rc)));
+< 	}
+---
+>        	EXTEND(SP, 3);	
+> 	PUSHs(sv_2mortal(newSViv(rc)));
+> 	if (rdata != NULL)
+> 		PUSHs(sv_2mortal(newSVpv(rdata, rdatalen)));	
+> 	else 
+> 		PUSHs(sv_2mortal(&PL_sv_undef));
+> 	PUSHs(sv_2mortal(newSViv(apprc)));	
+420c549
+< 	if (rdata == NULL) mwfree(rdata);
+---
+> 	if (rdata != NULL) mwfree(rdata);
+457c586,591
+< 	rc = mwfetch(handle, &rdata, &rdatalen, &apprc, flags);
+---
+> 	rc = mwfetch(&handle, &rdata, &rdatalen, &apprc, flags);
+> 
+> 	EXTEND(SP, 3);
+> 	PUSHs(sv_2mortal(newSViv(rc)));
+> 	PUSHs(sv_2mortal(newSVpv(rdata, rdatalen)));
+> 	PUSHs(sv_2mortal(newSViv(apprc)));	
+459,467d592
+< 	if (rc == 0) {
+< 		EXTEND(SP, 3);
+< 		PUSHs(sv_2mortal(newSViv(rc)));
+< 		PUSHs(sv_2mortal(newSVpv(rdata, rdatalen)));
+< 		PUSHs(sv_2mortal(newSViv(apprc)));	
+< 	} else {
+< 		EXTEND(SP, 1);
+< 		PUSHs(sv_2mortal(newSViv(rc)));
+< 	}
+470a596,717
+> # The Tasklet API 
+> ######################################################################
+> 
+> 
+> void
+> set_task_dispatch(perlfunc)
+> SV * perlfunc;
+> CODE:
+> 	/* Take a copy of the callback */
+>     	if (perl_task_dispatch == (SV*)NULL)
+>     	    /* First time, so create a new SV */
+>     	    perl_task_dispatch = newSVsv(perlfunc) ;
+>     	else
+>     	    /* Been here before, so overwrite */
+>     	    SvSetSV(perl_task_dispatch, perlfunc) ;
+> 	debug ("perl_task_dispatch = %p", perl_task_dispatch);
+> 
+> long 
+> addtaskdelayed(interval, delay)
+> int interval;
+> int delay;
+> CODE:
+> 	RETVAL = mwaddtaskdelayed(perlcalltaskwrapper, interval, delay);
+> OUTPUT:
+> 	RETVAL
+> 
+> int 
+> waketask(task)
+> IV task;
+> CODE:
+> 	RETVAL = mwwaketask(task);
+> OUTPUT:
+> 	RETVAL
+> 
+> int
+> settaskinterval(task, interval)
+> IV task;
+> int interval;
+> CODE:
+> 	RETVAL = mwsettaskinterval (task, interval);
+> OUTPUT:
+> 	RETVAL
+> 
+> 
+> void
+> dotasks()
+> CODE:
+> 	mwdotasks();
+> 
+> ######################################################################
+> # The Event API 
+> ######################################################################
+> 
+> void
+> set_event_dispatch(perlfunc)
+> SV * perlfunc;
+> CODE:
+> 	/* Take a copy of the callback */
+>     	if (perl_event_dispatch == (SV*)NULL)
+>     	    /* First time, so create a new SV */
+>     	    perl_event_dispatch = newSVsv(perlfunc) ;
+>     	else
+>     	    /* Been here before, so overwrite */
+>     	    SvSetSV(perl_event_dispatch, perlfunc) ;
+> 	debug ("perl_event_dispatch = %p", perl_event_dispatch);
+> 
+> 
+> int 
+> event(event, ...)
+> char * event;
+> PREINIT:
+> char * data;
+> STRLEN datalen, sl;
+> char * user;
+> char * name;
+> CODE:
+> 	if (items > 1) {
+> 	   data = (char *)SvPV(ST(1), datalen);
+> 	   if (datalen == 0) data = NULL;
+> 	};
+> 	if (items > 2) {
+> 	   user = (char *)SvPV(ST(2), sl);
+> 	   if (sl == 0) user = NULL;
+>  	};
+> 	if (items > 3) {
+> 	   name = (char *)SvPV(ST(3), sl);
+> 	   if (sl == 0) name = NULL;
+>  	};
+> 
+> 
+> 	RETVAL = mwevent(event, data, datalen, user, name);
+> 	debug ("event \"%s\" data \"%s\"(%d) user %p name %p => %d", event, data, datalen, user, name, RETVAL);
+> OUTPUT:
+> 	RETVAL
+> 
+> int 
+> subscribe(pattern, flags, subid)
+> char * pattern;
+> int flags;
+> int subid;
+> CODE:
+> 	RETVAL = _mwsubscribe(pattern, subid, flags);
+> 	debug ("subscribe \"%s\" subid %d flags %d => %d", pattern, subid, flags, RETVAL);
+> OUTPUT:
+> 	RETVAL
+> 
+> int 
+> unsubscribe(subid)
+> int subid;
+> CODE:
+> 	RETVAL = mwunsubscribe(subid);
+> OUTPUT:
+> 	RETVAL
+> 
+> 
+> void
+> recvevents()
+> CODE:
+> 	mwrecvevents();
+> 
+> 
+> ######################################################################
+533c780
+< # thus mwservicerequest() and mwMainLoop() are all imp'ed in perl.
+---
+> # thus mwservicerequest() and mwMainLoop() are all imp ed in perl.
+649d895
+< extern mwsvcinfo * _mwGetServiceRequest(int);
+658c904
+< 		EXTEND(SP, 16);
+---
+> 		EXTEND(SP, 22);
+674a921,926
+> 		PUSHs(sv_2mortal(newSVpv("username", 0)));
+> 		PUSHs(sv_2mortal(newSVpv(si->username, 0)));
+> 		PUSHs(sv_2mortal(newSVpv("clientname", 0)));
+> 		PUSHs(sv_2mortal(newSVpv(si->clientname, 0)));
+> 		PUSHs(sv_2mortal(newSVpv("authentication", 0)));
+> 		PUSHs(sv_2mortal(newSViv(si->authentication)));		
+675a928,935
+> 
+> 
+> ######################################################################
+> # 
+> ######################################################################
+> BOOT:
+> 	debug ("Boot block");
+>         _mw_register_event_handler(perl_event_hdl);
+Index: test.pl
+===================================================================
+RCS file: /cvsroot/midway/perl-MidWay/test.pl,v
+retrieving revision 1.2
+retrieving revision 1.3
+diff -r1.2 -r1.3
+26c26
+< $rc = mwattach("", "Perl test client", "", "", MWSERVER());
+---
+> $rc = mwattach("", "Perl test server", MWSERVER());
+Index: testclient.pl
+===================================================================
+RCS file: /cvsroot/midway/perl-MidWay/testclient.pl,v
+retrieving revision 1.1
+retrieving revision 1.2
+diff -r1.1 -r1.2
+22c22
+< mwopenlog("testclient.pl", "logg", MWLOG_DEBUG());
+---
+> mwopenlog("testclient.pl", "logg", MWLOG_DEBUG);
+28a29,32
+> @l = mwlistsvc("s*");
+> print @l, "\n";
+> print "[", join(", ", @l), "]\n";
+> 
+32,33c36,37
+< goto end;
+< $rc = mwacall("test", "date", "Perl test");
+---
+> #goto end;
+> $rc = mwacall("hello", "date", "Perl test");
+36,39c40,44
+< @rc = mwfetch($rc);
+< print "mwfetch returned ", join(", ", @rc), " (", scalar(@rc), ")\n";
+< 
+< mwlog(MWLOG_INFO(), "infoing %s", "hei hei");
+---
+> if ($rc > 0) {
+>     @rc = mwfetch($rc);
+>     print "mwfetch returned ", join(", ", @rc), " (", scalar(@rc), ")\n";
+> };
+> mwlog(MWLOG_INFO, "infoing %s", "hei hei");
