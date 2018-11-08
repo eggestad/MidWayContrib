@@ -4,9 +4,7 @@
 #include "XSUB.h"
 
 #include <MidWay.h>
-
-static char * CVSId = "$Id: MidWay.xs,v 1.6 2004/06/17 09:51:41 eggestad Exp $";
-
+  
 
 static int
 not_here(char *s)
@@ -393,7 +391,6 @@ perlcalltaskwrapper(PTask pt)
 static void 
 perl_event_hdl(int subid, char * event, char * data, int datalen)
 {
-   int rc;
    dSP ;
    
    debug("enter: subid %d event %s data \"%s\"", subid, event, data);
@@ -450,9 +447,8 @@ setcred(authtype, username = NULL, ...)
 int authtype;
 char * username; 
 PREINIT:
-	STRLEN sl;
-	int errorflag = 0;
-	int rc;
+//STRLEN sl;
+//int errorflag = 0;
 CODE:
 	/*
 		if (items > 0) {
@@ -527,7 +523,6 @@ STRLEN rdatalen = 0;
 int apprc = 0;
 int rc;
 int flags = 0;
-int error;
 PPCODE:
 	if (items > 1) {
 		data = (char *)SvPV(ST(1), datalen);
@@ -552,10 +547,9 @@ int
 acall(service, ...)
 char * service;
 PREINIT:
-char * data;
+char * data = NULL;
 STRLEN datalen = 0;
-int flags;
-int error;
+int flags = 0;
 CODE:
 	if (items > 1) {
 		data = (char *)SvPV(ST(1), datalen);
@@ -578,7 +572,6 @@ char * rdata = NULL;
 STRLEN rdatalen = 0;
 int apprc = 0;
 int rc;
-int error;
 PPCODE:
 	if (items > 1) {
 		flags = (int) SvIV(ST(1));
@@ -664,10 +657,10 @@ int
 event(event, ...)
 char * event;
 PREINIT:
-char * data;
+char * data = NULL;
 STRLEN datalen, sl;
-char * user;
-char * name;
+char * user = NULL;
+char * name = NULL;
 CODE:
 	if (items > 1) {
 	   data = (char *)SvPV(ST(1), datalen);
@@ -724,7 +717,7 @@ char * progname;
 char * filepf;
 int loglevel;
 CODE:
-	if (strlen(filepf) == 0) filepf == NULL;
+	if (strlen(filepf) == 0) filepf = NULL;
 
     	mwopenlog(progname, filepf, loglevel);
 
@@ -744,7 +737,7 @@ mw_log(loglevel, logmesg)
 int loglevel;
 char * logmesg;
 CODE:
-	mwlog(loglevel, logmesg);
+mwlog(loglevel, "%s", logmesg);
 
 
 ######################################################################
@@ -832,9 +825,9 @@ int
 forward(service, ...)
 char * service;
 PREINIT:
-char * data;
+char * data = NULL;
 STRLEN datalen = 0;
-int flags;
+int flags = 0;
 CODE:
 	if (items > 1) {
 		data = (char *)SvPV(ST(1), datalen);
@@ -853,7 +846,7 @@ reply(...)
 PREINIT:
 char * data;
 STRLEN datalen = 0;
-int flags;
+int flags = 0;
 int rc;
 int apprc;
 CODE:
