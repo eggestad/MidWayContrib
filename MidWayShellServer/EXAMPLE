@@ -1,0 +1,148 @@
+
+You can create very simple services using the shell server. Just be sure you know what you're doing and that mean reading and UNDERSTANDING the CAVEAT_EMPTOR text file!
+
+The syntax is
+mw_shell_server [-l loglevel] [-A uri] [-L logprefix] [-n name] {service commandline}...
+
+The data given with the service call is passed in stdin to the command line, and stdout from the command line is returned as data. Stderr goes to the terminal/shell where the mw_shell_server is started
+
+**Example 1:
+
+say you want a service that give you the time and date, and timezone of the host your server is running on. Start a server with:
+$ mw_shell_server date 'date'
+
+Now call the "date" service
+$ mwcall date
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.005631 secs
+info: Call to "date" succeded, returned 29 bytes of data with application return code 0
+Thu Nov  8 13:23:00 CST 2018
+
+
+** Example 2:
+Say you want to implement a very simple key value store, you start this server:
+
+$ mw_shell_server kvput '(read key; cat > kvdata/$key)' kvget '(read key; cat kvdata/$key)' kvrm '(read key; rm kvdata/$key)' kvls 'ls -1 kvdata'
+
+The bash read builtin command read the key from the first line in the data given and the rest of stdin is taken as value to be stored for the key.
+
+
+$ mwcall  kvput $'key\ndatavalue'
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.007498 secs
+info: Call to "kvput" succeded, returned no data with application return code 0
+
+$ (echo timestamp; date) |  mwcall kvput -
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.006832 secs
+info: Call to "kvput" succeded, returned no data with application return code 0
+
+$ mwcall  kvls
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.005212 secs
+info: Call to "kvls" succeded, returned 14 bytes of data with application return code 0
+key
+timestamp
+
+$ mwcall  kvget key
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.008828 secs
+info: Call to "kvget" succeded, returned 9 bytes of data with application return code 0
+datavalue
+
+$ mwcall  kvget timestamp
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.007229 secs
+info: Call to "kvget" succeded, returned 29 bytes of data with application return code 0
+Thu Nov  8 13:30:20 CST 2018
+
+$ mwcall  kvrm key
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.007409 secs
+info: Call to "kvrm" succeded, returned no data with application return code 0
+
+$ mwcall  kvget key
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.008250 secs
+info: Call to "kvget" succeded, returned no data with application return code 256
+terje eggus2 ~ 56 $ 
+
+
+Example 3:
+
+Use gnuplot to generate a plot:
+$ ./mw_shell_server plot '(read plotfunc;  gnuplot -e "set terminal dumb; plot $plotfunc")'
+
+$ mwcall plot  'sin(x)'
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.027818 secs
+info: Call to "plot" succeded, returned 1921 bytes of data with application return code 0
+
+                                                                               
+                                                                               
+    1 +-+--------------***---------------+---**-----------+--------**----+-+   
+      +                *  *              +  *  **         +       *  *     +   
+  0.8 +-+             *   *                 *    *          sin(x* *******-+   
+      |              *     *               *     *               *     *   |   
+  0.6 *-+            *      *              *     *               *     * +-+   
+      |*             *      *             *       *             *       *  |   
+  0.4 +*+           *       *             *       *             *       *+-+   
+      |*            *        *            *        *           *        *  |   
+  0.2 +*+          *         *            *        *           *         *-+   
+    0 +-*          *          *          *         *          *          *-+   
+      | *          *          *         *           *         *           *|   
+ -0.2 +-+*         *          *         *           *         *          +*+   
+      |  *        *           *        *             *        *           *|   
+ -0.4 +-+*        *            *       *             *       *           +*+   
+      |  *       *              *      *             *      *              *   
+ -0.6 +-+ *      *              *      *             *      *            +-*   
+      |    *    *               *     *               *     *              |   
+ -0.8 +-+  *    *                *   *                 *   *             +-+   
+      +     *  *       +         **  *   +             *  *                +   
+   -1 +-+----**--------+-----------**----+--------------***--------------+-+   
+     -10              -5                 0                5                10  
+                                                                               
+
+$ mwcall plot  'sin(x), cos(x)'
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.023145 secs
+info: Call to "plot" succeded, returned 1921 bytes of data with application return code 0
+
+                                                                               
+                                                                               
+    1 +-+---------###--***-------------####--**-----------+--###---**----+-+   
+      +          #   # *  *            # +# *  **         + #   # *  *     +   
+  0.8 +-+       #    #*   *           #    #*    *          #in(x* *******-+   
+      |         #    *#    *          #    *#    *          #os(x) ####*## |   
+  0.6 *-+       #    *#     *        #     *#    *         #     *     * +-+   
+      |*       #     * #    *        #    * #     *       #     * #     *  |   
+  0.4 +*+      #    *  #    *        #    *  #    *       #     *  #    *+-+   
+      |*      #     *  #     *      #     *  #     *      #    *   #    *  |   
+  0.2 +*+     #    *    #    *      #     *   #    *      #    *   #     *-+   
+    0 +-*     #    *    #     *    #     *    #    *     #    *    #     *-+   
+      | *     #    *     #    *    #    *     #     *    #    *     #     *|   
+ -0.2 +-+*   #     *     #    *    #    *     #     *   #     *     #    +*+   
+      |  *   #    *       #   *    #   *       #     *  #     *      #    *|   
+ -0.4 +-+*  #     *       #    *  #    *       #     * #     *       #   +*+   
+      |  *  #    *        #     *#     *        #    * #    *        #     *   
+ -0.6 +-+ * #    *        #     *#     *         #   * #    *         #  +-*   
+      |    *    *          #    *     *          #    *     *         #    |   
+ -0.8 #-+ #*    *           #   #*   *           #   # *   *           # +-#   
+      +# #  *  *       +    #  # **  *   +        #  # *  *             # #+   
+   -1 +###---**--------+-----##----**----+---------##---***-------------###+   
+     -10              -5                 0                5                10  
+                                                                               
+
+$
+
+Normally  you'd use png,jpeg, or gif instead of dumb as terminal 

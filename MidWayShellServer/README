@@ -1,5 +1,16 @@
-Start testserver with: 
-../mwserver/mwserver -d info -s testsvc1:testdataservice testsuiteserver.so
+The shell server - a MidWay server that allows services to be implemented with shell command lines
 
-Then run the testclient with:
-./testsuiteclient
+The shell server is intended to be used for R&D, testing, prototyping, not for general production.
+
+
+
+Build with
+$ make
+
+You might have to set C_INCLUDE_PATH and LIBRARY_PATH if MidWay is installed in an unstandard place. 
+
+Unless you know what you're doing, don't install mw_shell_server with rest of MidWay.
+See CAVEAT_EMPTOR.
+
+See EXAMPLES of how to use.
+

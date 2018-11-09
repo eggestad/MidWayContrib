@@ -1,0 +1,41 @@
+
+The mw_shell_server is very simple and you can create services fast. I've used it extensively in testing MidWay. However there are two major considerations:
+
+Security:
+bash shell (or any other shell) is prove to do substitutions that may allow a malicious caller
+to do command insertion into the shell. Especially if you start using eval
+Consider the following:
+$ ./mw_shell_server svc '(read firstline; eval "echo $firstline")'
+
+now calling
+$ mwcall svc 'date;date +%Y'
+logfile = (null) loglevel = 4
+info: attached to ipc:1000
+info: call returned in 0.006366 secs
+info: Call to "svc" succeded, returned 10 bytes of data with application return code 0
+date
+2018
+
+$
+
+You shouldn't have too much imagination about what happens if you do $ mwcall svc 'date;rm -rf ~/'
+
+The problem lies with using bourne script (or any other unix shell) as language to write services in.
+
+
+
+Performance:
+
+In using shell scripts in this way you have to remember and consider the number of fork/exec
+that is involved.
+
+While a modern box can do a million fork's a second, the number of exec's is pretty much limited to something like a 1000 for small executables, and try starting 10 large executable like open-office or a browser a second and the biggest server will be grind to a halt really fast.
+
+Unless you've experienced them, recognizing these kind of  exec storms are difficult to spot if the programs are small to medium size and complete fast. Say you're using lynx to get the HTML of a web page. It will complete fast, but it will generate a lot of page faults while starting up. Emacs will too of you're using Emacs to process the data you sending. You'll see a huge load, but pa will not show any processes generating the load. Nor will sar. Sar will tell you with the -w option in the procs/s number. 
+
+The reason being is that the kernel will have to do a lot more to start the executable than the executable itself have to do to process the task you've given it.
+
+The problem will only gets worse if you use a long pipeline.
+
+For those that are old enough to remember CGI may remember that CGI had a horrible performance with heavy load. One of the main purposes fo MidWay is to have server process standing ready with buisness logic to process the request with a minimal overhead. With mw_shell_server you have reinvented CGI, and is fundamentally breaking the design principle MidWay was designed for. 
+
