@@ -163,10 +163,16 @@ int main(int argc, char ** argv)
   replybuffer = malloc(replybufferlen);
 
        
-  while ((option = getopt(argc, argv, "vL:A:n:")) != EOF) {
+  while ((option = getopt(argc, argv, "vl:L:A:n:")) != EOF) {
     
     switch (option) {
       
+    case 'l':
+       rc = _mwstr2loglevel(optarg);
+       if (rc == -1) usage();
+       loglevel = rc;
+       break;
+
     case 'v':
        mwsetloglevel(MWLOG_DEBUG);
        loglevel = MWLOG_DEBUG;
